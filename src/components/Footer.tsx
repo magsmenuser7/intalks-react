@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mic, Youtube, Instagram, Linkedin, Twitter, Facebook, Mail } from 'lucide-react';
+import logo2 from '../assets/intalks-logo-white.png';
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
               <div className="w-auto h-10 rounded-full flex items-center justify-center">
                 {/* <Mic className="w-4 h-4 text-[#111111]" /> */}
                 <img
-                src="src/assets/intalks-logo-white.png"
+                src={logo2}
                 alt="icon"
                 className="w-auto h-14 object-contain"
               />

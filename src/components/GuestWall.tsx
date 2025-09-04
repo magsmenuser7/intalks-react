@@ -1,5 +1,22 @@
 import React from 'react';
 
+
+import guest1 from "../assets/intalks-podcast-1.jpg";
+import guest2 from "../assets/intalks-podcast-2.jpg";
+import guest3 from "../assets/intalks-podcast-3.jpg";
+import guest4 from "../assets/intalks-podcast-4.jpg";
+import guest5 from "../assets/intalks-podcast-5.jpg";
+import guest6 from "../assets/intalks-podcast-6.jpg";
+import guest7 from "../assets/intalks-podcast-7.jpg";
+import guest8 from "../assets/intalks-podcast-8.jpg";
+import guest9 from "../assets/intalks-podcast-9.jpg";
+import guest10 from "../assets/intalks-podcast-10.jpg";
+import guest11 from "../assets/intalks-podcast-11.jpg";
+import guest12 from "../assets/intalks-podcast-12.jpg";
+import guest13 from "../assets/intalks-podcast-13.jpg";
+import guest14 from "../assets/intalks-podcast-14.jpg";
+import guest15 from "../assets/intalks-podcast-15.jpg";
+
 interface Guest {
   id: number;
   name: string;
@@ -14,105 +31,105 @@ const GuestWall = () => {
       id: 1,
       name: "Dr. Rayapati Mamatha",
       role: "Deputy Managing Director of Ramesh Hospitals",
-      image: "src/assets/intalks-podcast-1.jpg",
+      image: guest1,
       company: "Ramesh Hospitals"
     },
     {
       id: 2,
       name: "Sakku Madhavi",
       role: "member of the Sakku Group",
-      image: "src/assets/intalks-podcast-2.jpg",
+      image: guest2,
       company: "Sakku Group"
     },
     {
       id: 3,
       name: "Ram",
       role: "Interior Design",
-      image: "src/assets/intalks-podcast-3.jpg",
+      image: guest3,
       company: "Interior Design"
     },
     {
       id: 4,
       name: "Sridhar",
       role: "IT Founder",
-      image: "src/assets/intalks-podcast-4.jpg",
+      image: guest4,
       company: "CHS Software Solutions"
     },
     {
       id: 5,
       name: "Dr.Subramanyam",
       role: "Founder Of Shakthi An Ayurvedic Nut Powder",
-      image: "src/assets/intalks-podcast-5.jpg",
+      image: guest5,
       company: "Founder Of Shakthi An Ayurvedic Nut Powder"
     },
      {
       id: 6,
       name: "Saikesh Goud",
       role: "Country Chicken Co.",
-      image: "src/assets/intalks-podcast-6.jpg",
+      image: guest6,
       company: "Country Chicken Co."
     },
     {
       id: 7,
       name: "Avinash Chukkapalli",
       role: "Sandal Enthusiast",
-      image: "src/assets/intalks-podcast-7.jpg",
+      image: guest7,
       company: " Popular Shoe Mart"
     },
     {
       id: 8,
       name: "Venkata Vikas",
       role: "Cocomunzz And Vepuri Agro Products",
-      image: "src/assets/intalks-podcast-8.jpg",
+      image: guest8,
       company: "Cocomunzz and Vepuri Agro Products"
     },
     {
       id: 9,
       name: "Dr.Praneeth Kumar",
       role: "Dental Surgeon & Smile Design",
-      image: "src/assets/intalks-podcast-9.jpg",
+      image: guest9,
       company: "Dental Surgeon & Smile Design"
     },
     {
       id: 10,
       name: "Vivek",
       role: "Podcaster vs Marketer",
-      image: "src/assets/intalks-podcast-10.jpg",
+      image: guest10,
       company: "Podcaster vs Marketer"
     },
     {
       id: 11,
       name: "Yamuna Kishore",
       role: "Ad Flimmaker",
-      image: "src/assets/intalks-podcast-11.jpg",
+      image: guest11,
       company: "Ad Flimmaker"
     },
     {
       id: 12,
       name: "Adithya Saha",
       role: "Bizrights IP",
-      image: "src/assets/intalks-podcast-12.jpg",
+      image: guest12,
       company: "Bizrights IP"
     },
     {
       id: 13,
       name: "D.V.S.B.Rammurthy",
       role: "Dermatologist",
-      image: "src/assets/intalks-podcast-13.jpg",
+      image: guest13,
       company: "Dermatologist"
     },
     {
       id: 14,
       name: "K.V. Vijaya Kumar",
       role: "Retd I.A.S",
-      image: "src/assets/intalks-podcast-13.jpg",
+      image: guest14,
       company: "Dermatologist"
     },
     {
       id: 15,
       name: "K.V. Vijaya Kumar",
       role: "Retd I.A.S",
-      image: "src/assets/intalks-podcast-13.jpg",
+      image: guest15,
       company: "Dermatologist"
     }
   ];

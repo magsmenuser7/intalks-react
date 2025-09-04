@@ -1,6 +1,9 @@
 import React from 'react';
 import { Play, Clock, Users, Sparkles, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import podcast29Thumb from "../assets/intalks-podcast-29.jpg";
+import podcast28Thumb from "../assets/intalks-podcast-28.jpg";
+import podcast27Thumb from "../assets/intalks-podcast-27.jpg";
 
 interface Episode {
   id: number;
@@ -19,7 +22,7 @@ const FeaturedEpisodes = () => {
       title: "Lessons in Leadership and Service",
       guest: "IAS M Gopala Krishna (Retd)",
       duration: "1:15:17 min",
-      thumbnail: "src/assets/intalks-podcast-29.jpg",
+      thumbnail: podcast29Thumb,
       description:
         "A remarkable journey through elections, governance, and mentorship, offering timeless insights on democracy, leadership, ethics, and public service.",
       youtubeLink: "https://youtu.be/crY9TCPI5hk?si=oWWPbE0A5RiDEPWO" // Replace with actual link
@@ -29,7 +32,7 @@ const FeaturedEpisodes = () => {
       title: "Life, Service, and Sacrifice",
       guest: "Retd Major General Ravi Ravada NSG ",
       duration: "1:12:45 min",
-      thumbnail: "src/assets/intalks-podcast-28.jpg",
+      thumbnail: podcast28Thumb,
       description:
         "An inspiring journey of courage, discipline, and sacrifice, exploring patriotism, national security, global diplomacy, and life’s true simplicity.",
       youtubeLink: "https://youtu.be/u8qEUzabOkE?si=PFc4tBD_AQYwZ1YP" // Replace with actual link
@@ -39,7 +42,7 @@ const FeaturedEpisodes = () => {
       title: "Eternal Insights with Swamiji",
       guest: "Sri Santh Sadananda Giri ",
       duration: "1:30:28 min",
-      thumbnail: "src/assets/intalks-podcast-27.jpg",
+      thumbnail: podcast27Thumb,
       description:
         "We sit down with Sri Santh Sadananda Giri Swamiji, a revered spiritual teacher aged 109, to discuss some of the most important aspects of life that often go unnoticed in today's fast-paced world.",
       youtubeLink: "https://youtu.be/EXf7R4PePmk?si=l3-Let2cI1lerqZ8" // Replace with actual link

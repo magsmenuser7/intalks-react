@@ -1,5 +1,34 @@
 import React, { useState } from 'react';
 import { Search, Filter, Play, Clock, Users, Calendar } from 'lucide-react';
+import guest1 from "../assets/intalks-podcast-1.jpg";
+import guest2 from "../assets/intalks-podcast-2.jpg";
+import guest3 from "../assets/intalks-podcast-3.jpg";
+import guest4 from "../assets/intalks-podcast-4.jpg";
+import guest5 from "../assets/intalks-podcast-5.jpg";
+import guest6 from "../assets/intalks-podcast-6.jpg";
+import guest7 from "../assets/intalks-podcast-7.jpg";
+import guest8 from "../assets/intalks-podcast-8.jpg";
+import guest9 from "../assets/intalks-podcast-9.jpg";
+import guest10 from "../assets/intalks-podcast-10.jpg";
+import guest11 from "../assets/intalks-podcast-11.jpg";
+import guest12 from "../assets/intalks-podcast-12.jpg";
+import guest13 from "../assets/intalks-podcast-13.jpg";
+import guest14 from "../assets/intalks-podcast-14.jpg";
+import guest15 from "../assets/intalks-podcast-15.jpg";
+import guest16 from "../assets/intalks-podcast-16.jpg";
+import guest17 from "../assets/intalks-podcast-17.jpg";
+import guest18 from "../assets/intalks-podcast-18.jpg";
+import guest19 from "../assets/intalks-podcast-19.jpg";
+import guest20 from "../assets/intalks-podcast-20.jpg";
+import guest21 from "../assets/intalks-podcast-21.jpg";
+import guest22 from "../assets/intalks-podcast-22.jpg";
+import guest23 from "../assets/intalks-podcast-23.jpg"; 
+import guest24 from "../assets/intalks-podcast-24.jpg";
+import guest25 from "../assets/intalks-podcast-25.jpg";
+import guest26 from "../assets/intalks-podcast-26.jpg";
+import guest27 from "../assets/intalks-podcast-27.jpg"; 
+import guest28 from "../assets/intalks-podcast-28.jpg";
+import guest29 from "../assets/intalks-podcast-29.jpg";
 
 interface Episode {
   id: number;
@@ -28,7 +57,7 @@ const Episodes = () => {
       duration: "1:25:51 min",
       date: "Aug 12, 2024",
       category: "Healthcare Leadership",
-      thumbnail: "src/assets/intalks-podcast-1.jpg",
+      thumbnail: guest1,
       description: "Dr. Rayapati Mamatha shares her inspiring journey from medical student to hospital leader, blending healthcare expertise with management.",
       views: "10.5k",
       youtubeLink:"https://youtu.be/9cgx45gJfE8?si=rEFz2FyR26shhk7X"
@@ -40,7 +69,7 @@ const Episodes = () => {
       duration: "47:01 min",
       date: "Aug 22, 2024",
       category: "Business & Entrepreneurship",
-      thumbnail: "src/assets/intalks-podcast-2.jpg",
+      thumbnail: guest2,
       description: "Sakku Madhavi shares challenges, triumphs, and strategies shaping women’s evolving roles, leadership, and entrepreneurial success in business.",
       views: "2.191k",
       youtubeLink: "https://youtu.be/xeMl0V16CHU?si=2QwR-iZ-mORi6OYr"
@@ -52,7 +81,7 @@ const Episodes = () => {
       duration: "56:08 min",
       date: "Aug 29, 2024",
       category: "Interior Design",
-      thumbnail: "src/assets/intalks-podcast-3.jpg",
+      thumbnail: guest3,
       description: "Ram explores interior design’s evolution, temple architecture’s influence, and challenges posed by Pinterest’s often unrealistic design expectations.",
       views: "3.6k",
       youtubeLink: "https://youtu.be/Y2ABoUuEkSw?si=dDAR-CBp-wIidhTx"
@@ -64,7 +93,7 @@ const Episodes = () => {
       duration: "47:32 min",
       date: "Sep 9, 2024",
       category: "IT Founder",
-      thumbnail: "src/assets/intalks-podcast-4.jpg",
+      thumbnail: guest4,
       description: "Sridhar explores student mindsets, AI’s transformative impact across industries, and shares practical strategies for academic and professional growth.",
       views: "2.3k",
       youtubeLink: "https://youtu.be/Tu1Z5w_lEqo?si=KJ2LTwpXYLIZIUhJ"
@@ -76,7 +105,7 @@ const Episodes = () => {
       duration: "45:07 min",
       date: "Sep 30, 2024",
       category: "Shakthi an Ayurvedic Nut Powder",
-      thumbnail: "src/assets/intalks-podcast-5.jpg",
+      thumbnail: guest5,
       description: "Dr. Subramanyam shares Shakthi’s journey, blending Ayurvedic wisdom with modern nutrition to promote sustainable, holistic wellness solutions.",
       views: "893",
       youtubeLink: "https://youtu.be/VLAvgT2WUJI?si=ebYECzJURxKcQgmG"
@@ -88,7 +117,7 @@ const Episodes = () => {
       duration: "1:32:01 min",
       date: "Oct 10, 2024",
       category: "creators",
-      thumbnail: "src/assets/intalks-podcast-6.jpg",
+      thumbnail: guest6,
       description: "Saikesh Goud exposes poultry industry dangers, revealing clean, drug-free alternatives for healthier, sustainable eating and food safety.",
       views: "11k",
       youtubeLink: "https://youtu.be/N0MHDT29Gsk?si=afC5Wjai32xaom4k"
@@ -100,7 +129,7 @@ const Episodes = () => {
       duration: "1:39:31 min",
       date: "Oct 24, 2024",
       category: "Fashion & Lifestyle",
-      thumbnail: "src/assets/intalks-podcast-7.jpg",
+      thumbnail: guest7,
       description: "Explore footwear’s artistry and business, from sneakers to sandals, with insights from designers, retailers, and passionate shoe lovers.",
       views: "6.9k",
       youtubeLink: "https://youtu.be/C4-0iwevOY8?si=YEn-RKS9QBRIovEY"
@@ -112,7 +141,7 @@ const Episodes = () => {
       duration: "1:04:22 min",
       date: "Oct 31, 2024",
       category: "Coconut Industry & FMCG Insights",
-      thumbnail: "src/assets/intalks-podcast-8.jpg",
+      thumbnail:  guest8,
       description: "Discover coconut industry secrets with Vepuri Foods’ Vikas, exploring traditions, innovations, challenges, and surprising business insights.",
       views: "32k",
       youtubeLink: "https://youtu.be/C4-0iwevOY8?si=YEn-RKS9QBRIovEY"
@@ -124,7 +153,7 @@ const Episodes = () => {
       duration: "1:08:54 min",
       date: "Nov 10, 2024",
       category: "Health & Dentistry",
-      thumbnail: "src/assets/intalks-podcast-9.jpg",
+      thumbnail: guest9,
       description: "Explore dental health, smile design trends, and expert tips with Dr. Praneeth Kumar on necessity versus cosmetic choice.",
       views: "4.7k",
       youtubeLink: "https://youtu.be/x7HEwRWvZTQ?si=s7H1RJ9UDkGt4yI5"
@@ -136,7 +165,7 @@ const Episodes = () => {
       duration: "1:08:54 min",
       date: "Nov 30, 2024",
       category: "Podcaster vs Marketer",
-      thumbnail: "src/assets/intalks-podcast-10.jpg",
+      thumbnail: guest10,
       description: "Join Vivek in Part 2 as he shares bold marketing strategies, creative insights, and playful branding experiments.",
       views: "943",
       youtubeLink: "https://youtu.be/e0ybzD7FNmo?si=PBqHCYk_lSWPPi3S"
@@ -148,7 +177,7 @@ const Episodes = () => {
       duration: "1:24:13 min",
       date: "Dec 10, 2024",
       category: "Ad Flimmaker",
-      thumbnail: "src/assets/intalks-podcast-11.jpg",
+      thumbnail: guest11,
       description: "Explore Telugu advertising secrets with Yamuna Kishore, uncovering creative strategies, memorable slogans, and insights for aspiring filmmakers.",
       views: "5k",
       youtubeLink: "https://youtu.be/EVwapJkZuf8?si=JaX2HFc2OAzzhg-P"
@@ -160,7 +189,7 @@ const Episodes = () => {
       duration: "50:22 min",
       date: "Dec 21, 2024",
       category: "Business & Intellectual Property",
-      thumbnail: "src/assets/intalks-podcast-12.jpg",
+      thumbnail: guest12,
       description: "Learn how to protect ideas, trademarks, copyrights, and personality rights with insights from Adithya Saha on Intalks.",
       views: "685",
       youtubeLink: "https://youtu.be/sYcJ0WsYVMU?si=zvJWu8JlW0hOXdTj"
@@ -172,7 +201,7 @@ const Episodes = () => {
       duration: "1:16:26 min",
       date: "Dec 31, 2024",
       category: "Dermatologist",
-      thumbnail: "src/assets/intalks-podcast-13.jpg",
+      thumbnail: guest13,
       description: "Dr.Rammurthy shares expert skincare tips, debunks myths, and reveals habits for healthy, radiant skin naturally.",
       views: "13k",
       youtubeLink: "https://youtu.be/qyHhRBAksYg?si=6JSrEJHhoezcIkB9"
@@ -184,7 +213,7 @@ const Episodes = () => {
       duration: "1:36:17 min",
       date: "Jan 21, 2025",
       category: "Legal Advice & Personal Safety",
-      thumbnail: "src/assets/intalks-podcast-14.jpg",
+      thumbnail:  guest14,
       description: "Retired Judge K.V. Vijaya Kumar explains signature pitfalls, real-life legal disputes, and ways to safeguard yourself effectively.",
       views: "5.7k",
       youtubeLink: "https://youtu.be/00gLQbey8_g?si=OeaTyGggBJGXgmdF"
@@ -196,7 +225,7 @@ const Episodes = () => {
       duration: "37:24 min",
       date: "Jan 31, 2025",
       category: "Service to humanity",
-      thumbnail: "src/assets/intalks-podcast-15.jpg",
+      thumbnail:  guest15,
       description: "Rajya Lakshmi Vadlamani shares inspiring stories of service, leadership, and making a meaningful difference in the community.",
       views: "7.6k",
       youtubeLink: "https://youtu.be/nlYt7ZDM2eI?si=wmFmfgEaFez-Kdct"
@@ -208,7 +237,7 @@ const Episodes = () => {
       duration: "1:25:31 min",
       date: "Feb 14, 2025",
       category: "Entrepreneurship & Business Success",
-      thumbnail: "src/assets/intalks-podcast-16.jpg",
+      thumbnail:  guest16,
       description: "Dora Babu shares his journey overcoming ₹15 lakh debt, business challenges, and lessons in ethical entrepreneurship.",
       views: "1.3k",
       youtubeLink: "https://youtu.be/EedTBmAC0oc?si=huKFCU8LTgZF-0Kv"
@@ -220,7 +249,7 @@ const Episodes = () => {
       duration: "59:53 min",
       date: "Feb 28, 2025",
       category: "Business & Food Industry",
-      thumbnail: "src/assets/intalks-podcast-17.jpg",
+      thumbnail:  guest17,
       description: "Explore the journey of building a premium organic ice cream brand, overcoming challenges, and thriving in a competitive market.",
       views: "2.5k",
       youtubeLink: "https://youtu.be/XHr2ncS8Seg?si=vWZJwudpuwC-PyHI"
@@ -232,7 +261,7 @@ const Episodes = () => {
       duration: "45:40 min",
       date: "Mar 8, 2025",
       category: "Women’s Empowerment & Personal Growth",
-      thumbnail: "src/assets/intalks-podcast-18.jpg",
+      thumbnail:  guest18,
       description: "Explore an inspiring journey of balancing sports, ambition, and family, highlighting resilience, dedication, and self-discovery.",
       views: "12k",
       youtubeLink: "https://youtu.be/uxOnm6B79ng?si=UtzIAY-FkOTiTliG"
@@ -244,7 +273,7 @@ const Episodes = () => {
       duration: "1:24:08 min",
       date: "Mar 22, 2025",
       category: "Business & Finance",
-      thumbnail: "src/assets/intalks-podcast-19.jpg",
+      thumbnail:  guest19,  
       description: "Learn essential financial strategies, tax tips, and business structures for startups and entrepreneurs to secure long-term success.",
       views: "2.9k",
       youtubeLink: "https://youtu.be/-GsfH1Evq5k?si=E269IPKmGCTrJfGO"
@@ -256,7 +285,7 @@ const Episodes = () => {
       duration: "40:32 min",
       date: "Apr 15, 2025",
       category: "Film & Entertainment",
-      thumbnail: "src/assets/intalks-podcast-20.jpg",
+      thumbnail:  guest20,
       description: "Explore behind-the-scenes of Telugu filmmaking, from casting and funding to creative challenges faced by indie filmmakers.",
       views: "3.7k",
       youtubeLink: "https://youtu.be/Nk92Ex-AnyU?si=GVHl0RNQqtt_eFEP"
@@ -268,7 +297,7 @@ const Episodes = () => {
       duration: "1:17:38 min",
       date: "Apr 30, 2025",
       category: "GV Mall Chairman",
-      thumbnail: "src/assets/intalks-podcast-21.jpg",
+      thumbnail:  guest21,
       description: "Learn how a traditional clothing business modernized, embracing systemization, marketing strategies, and adapting to post-COVID retail changes.",
       views: "10.3k",
       youtubeLink: "https://youtu.be/B9cOn169Xzo?si=nd2pUkBHzDgKbcWW"
@@ -280,7 +309,7 @@ const Episodes = () => {
       duration: "38:50 min",
       date: "May 11, 2025",
       category: "Parenting & Family",
-      thumbnail: "src/assets/intalks-podcast-22.jpg",
+      thumbnail:  guest22,
       description: "A heartfelt conversation exploring motherhood, parenting challenges, family bonds, discipline, and the unsaid aspects of raising children.",
       views: "1.1k",
       youtubeLink: "https://youtu.be/q1UzxcrmUCQ?si=MNZ8z16OWnCiq6-P"
@@ -292,7 +321,7 @@ const Episodes = () => {
       duration: "1:20:59 min",
       date: "May 30, 2025",
       category: "Health & Cardiology",
-      thumbnail: "src/assets/intalks-podcast-23.jpg",
+      thumbnail:  guest23,
       description: "Learn to differentiate heart attack from gas pain, recognize cardiac risks, and adopt life-saving heart-healthy habits.",
       views: "4k",
       youtubeLink: "https://youtu.be/JrjFefgv2YI?si=qypL5JdWChWSerW6"
@@ -304,7 +333,7 @@ const Episodes = () => {
       duration: "51:06 min",
       date: "June 20, 2025",
       category: "Film & Career Stories",
-      thumbnail: "src/assets/intalks-podcast-24.jpg",
+      thumbnail:  guest24,
       description: "Discover the journey of balancing a 9-5 job with acting, overcoming struggles, and pursuing cinematic passion.",
       views: "545",
       youtubeLink: "https://youtu.be/D_J2PVyCSUU?si=twqQmgbwvpUjBpDk"
@@ -316,7 +345,7 @@ const Episodes = () => {
       duration: "1:38:01 min",
       date: "June 28, 2025",
       category: "Film & Entertainment",
-      thumbnail: "src/assets/intalks-podcast-25.jpg",
+      thumbnail:  guest25,
       description: "Annapurnamma Garu shares her five-decade Telugu cinema journey, insights on acting, legacy, and staying grounded in life.",
       views: "33k",
       youtubeLink: "https://youtu.be/P0eeyHQ5xz8?si=lEkS1OlkGFS59w15"
@@ -328,7 +357,7 @@ const Episodes = () => {
       duration: "1:08:33 min",
       date: "July 16, 2025",
       category: "Social Impact & Leadership",
-      thumbnail: "src/assets/intalks-podcast-26.jpg",
+      thumbnail:  guest26,
       description: "Discover a journey of service, charity, and community impact, highlighting true success beyond fame and wealth.",
       views: "1.8k",
       youtubeLink: "https://youtu.be/cTILII65dlM?si=Tl8TNE4f2UuRXMeB"
@@ -340,7 +369,7 @@ const Episodes = () => {
       duration: "1:30:28 min",
       date: "July 31, 2025",
       category: "Spirituality & Life Lessons",
-      thumbnail: "src/assets/intalks-podcast-27.jpg",
+      thumbnail:  guest27,
       description: "Swamiji shares profound wisdom on meditation, culture, and timeless life lessons for today’s fast-paced modern world.",
       views: "2.1k",
       youtubeLink: "https://youtu.be/EXf7R4PePmk?si=KHEOV2q3bNtK1G8y"
@@ -352,7 +381,7 @@ const Episodes = () => {
       duration: "1:12:45 min",
       date: "Aug 15, 2025",
       category: "Patriotism & National Security",
-      thumbnail: "src/assets/intalks-podcast-28.jpg",
+      thumbnail:  guest28,  
       description: "Major General Ravi shares inspiring stories of discipline, courage, patriotism, and insights on national security, diplomacy, and leadership.",
       views: "3.1k",
       youtubeLink: "https://youtu.be/u8qEUzabOkE?si=-7x6PXw3MQJfRPXI"
@@ -364,7 +393,7 @@ const Episodes = () => {
       duration: "1:15:17 min",
       date: "Aug 31, 2025",
       category: "Governance & Public Service",
-      thumbnail: "src/assets/intalks-podcast-29.jpg",
+      thumbnail:  guest29,
       description: "An inspiring conversation on UPSC, governance, leadership, and ethics with lessons from decades of public service experience.",
       views: "2.3k",
       youtubeLink: "https://youtu.be/crY9TCPI5hk?si=TlnVk5wSNnMhjIQ6"

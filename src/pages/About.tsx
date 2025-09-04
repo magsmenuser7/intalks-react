@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Users, Mic, ExternalLink, Youtube, Instagram, Linkedin } from 'lucide-react';
+import sandeepImage from '../assets/sandeep.png';
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
           <div className="relative inline-block mb-8">
             <div className="w-48 h-48 rounded-full overflow-hidden border-[#F7B58D] mx-auto"> {/* Border-4 added */}
               <img
-                src="src/assets/sandeep.png"
+                src={sandeepImage}
                 alt="Sandeep N"
                 className="w-full h-full object-cover"
               />

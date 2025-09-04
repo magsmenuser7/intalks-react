@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Mic } from 'lucide-react';
+import logo from '../assets/intalks-logo.png';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +29,7 @@ const Navbar = () => {
               {/* <Mic className="w-4 h-4 text-[#111111]" /> */}
 
               <img
-                src="src/assets/intalks-logo.png"
+                src={logo}
                 alt="icon"
                 className="w-auto h-14 object-cover"
               />

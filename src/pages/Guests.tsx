@@ -1,5 +1,34 @@
 import React, { useState } from 'react';
 import { Search, Filter } from 'lucide-react';
+import guest1 from "../assets/intalks-podcast-1.jpg";
+import guest2 from "../assets/intalks-podcast-2.jpg";
+import guest3 from "../assets/intalks-podcast-3.jpg";
+import guest4 from "../assets/intalks-podcast-4.jpg";
+import guest5 from "../assets/intalks-podcast-5.jpg";
+import guest6 from "../assets/intalks-podcast-6.jpg";
+import guest7 from "../assets/intalks-podcast-7.jpg";
+import guest8 from "../assets/intalks-podcast-8.jpg";
+import guest9 from "../assets/intalks-podcast-9.jpg";
+import guest10 from "../assets/intalks-podcast-10.jpg";
+import guest11 from "../assets/intalks-podcast-11.jpg";
+import guest12 from "../assets/intalks-podcast-12.jpg";
+import guest13 from "../assets/intalks-podcast-13.jpg";
+import guest14 from "../assets/intalks-podcast-14.jpg";
+import guest15 from "../assets/intalks-podcast-15.jpg";
+import guest16 from "../assets/intalks-podcast-16.jpg";
+import guest17 from "../assets/intalks-podcast-17.jpg";
+import guest18 from "../assets/intalks-podcast-18.jpg";
+import guest19 from "../assets/intalks-podcast-19.jpg";
+import guest20 from "../assets/intalks-podcast-20.jpg";
+import guest21 from "../assets/intalks-podcast-21.jpg";
+import guest22 from "../assets/intalks-podcast-22.jpg";
+import guest23 from "../assets/intalks-podcast-23.jpg"; 
+import guest24 from "../assets/intalks-podcast-24.jpg";
+import guest25 from "../assets/intalks-podcast-25.jpg";
+import guest26 from "../assets/intalks-podcast-26.jpg";
+import guest27 from "../assets/intalks-podcast-27.jpg"; 
+import guest28 from "../assets/intalks-podcast-28.jpg";
+import guest29 from "../assets/intalks-podcast-29.jpg";
 
 interface Guest {
   id: number;
@@ -22,7 +51,7 @@ const Guests = () => {
     name: "Dr. Rayapati Mamatha",
     role: "Healthcare Leadership",
     company: "YouTube Creator",
-    image: "src/assets/intalks-podcast-1.jpg",
+    image: guest1,
     episodes: ["From Medicine to Management"],
     youtubeLink: "https://youtu.be/9cgx45gJfE8?si=rEFz2FyR26shhk7X",
     episodeNumber: 1,
@@ -32,7 +61,7 @@ const Guests = () => {
     name: "Sakku Madhavi",
     role: "Business & Entrepreneurship",
     company: "Sakku Group",
-    image: "src/assets/intalks-podcast-2.jpg",
+    image: guest2,
     episodes: ["Empowering Women in Business"],
     youtubeLink: "https://youtu.be/xeMl0V16CHU?si=2QwR-iZ-mORi6OYr",
     episodeNumber: 2, 
@@ -42,7 +71,7 @@ const Guests = () => {
     name: "Ram",
     role: "Interior Design",
     company: "Interior Design",
-    image: "src/assets/intalks-podcast-3.jpg",
+    image: guest3,
     episodes: ["Redefining Interiors: Tradition Meets Modern"],
     youtubeLink: "https://youtu.be/Y2ABoUuEkSw?si=dDAR-CBp-wIidhTx",
     episodeNumber: 3,
@@ -52,7 +81,7 @@ const Guests = () => {
     name: "Sridhar",
     role: "IT Founder",
     company: "CSH Software Solutions",
-    image: "src/assets/intalks-podcast-4.jpg",
+    image: guest4,
     episodes: ["AI Insights with Sridhar"],
     youtubeLink: "https://youtu.be/Tu1Z5w_lEqo?si=KJ2LTwpXYLIZIUhJ",
     episodeNumber: 4,
@@ -62,7 +91,7 @@ const Guests = () => {
     name: "Dr.Subramanyam",
     role: "Shakthi an Ayurvedic Nut Powder",
     company: "Shakthi an Ayurvedic Nut Powder",
-    image: "src/assets/intalks-podcast-5.jpg",
+    image: guest5,
     episodes: ["Ayurveda Reinvented with Shakthi"],
     youtubeLink: "https://youtu.be/VLAvgT2WUJI?si=ebYECzJURxKcQgmG",
     episodeNumber: 5,
@@ -72,7 +101,7 @@ const Guests = () => {
     name: "Saikesh Goud",
     role: "Creators",
     company: "Clean Chicken Revolution",
-    image: "src/assets/intalks-podcast-6.jpg",
+    image: guest6,
     episodes: ["Clean Chicken Revolution with Saikesh"],
     youtubeLink: "https://youtu.be/N0MHDT29Gsk?si=afC5Wjai32xaom4k",
     episodeNumber: 6,
@@ -82,7 +111,7 @@ const Guests = () => {
     name: "Avinash Chukkapalli",
     role: "Fashion & Lifestyle",
     company: "Stepping Into Style",
-    image: "src/assets/intalks-podcast-7.jpg",
+    image: guest7,
     episodes: ["Stepping Into Style"],
     youtubeLink: "https://youtu.be/C4-0iwevOY8?si=YEn-RKS9QBRIovEY",
     episodeNumber: 7,
@@ -92,7 +121,7 @@ const Guests = () => {
     name: "Venkata Vikas",
     role: "Coconut Industry & FMCG Insights",
     company: "Vepuri Foods",
-    image: "src/assets/intalks-podcast-8.jpg",
+    image: guest8,
     episodes: ["Cracking the Coconut Code"],
     youtubeLink: "https://youtu.be/C4-0iwevOY8?si=YEn-RKS9QBRIovEY",
     episodeNumber: 8,
@@ -102,7 +131,7 @@ const Guests = () => {
     name: "Dr. Praneeth Kumar",
     role: "Health & Dentistry",
     company: "Smile Design & Dental Care",
-    image: "src/assets/intalks-podcast-9.jpg",
+    image: guest9,
     episodes: ["Smile Design & Dental Care"],
     youtubeLink: "https://youtu.be/x7HEwRWvZTQ?si=s7H1RJ9UDkGt4yI5",
     episodeNumber: 9,
@@ -112,7 +141,7 @@ const Guests = () => {
     name: "Vivek",
     role: "Podcaster vs Marketer",
     company: "Marketing",
-    image: "src/assets/intalks-podcast-10.jpg",
+    image: guest10,
     episodes: ["100 రూపాయలతో కూడా Marketing చెయ్యొచ్చు!"],
     youtubeLink: "https://youtu.be/e0ybzD7FNmo?si=PBqHCYk_lSWPPi3S",
     episodeNumber: 10,
@@ -122,7 +151,7 @@ const Guests = () => {
     name: "Yamuna Kishore",
     role: "Ad Flimmaker",
     company: "Advertising",
-    image: "src/assets/intalks-podcast-11.jpg",
+    image: guest11,
     episodes: ["మనందరం ఈ Ads చూసేవుంటాం"],
     youtubeLink: "https://youtu.be/EVwapJkZuf8?si=JaX2HFc2OAzzhg-P",
     episodeNumber : 11,
@@ -132,7 +161,7 @@ const Guests = () => {
     name: "Adithya Saha",
     role: "Business & Intellectual Property",
     company: "Intellectual Property",
-    image: "src/assets/intalks-podcast-12.jpg",
+    image:  guest12,
     episodes: ["What to do when your Ideas are copied?"],
     youtubeLink: "https://youtu.be/sYcJ0WsYVMU?si=zvJWu8JlW0hOXdTj",
     episodeNumber: 12,
@@ -142,7 +171,7 @@ const Guests = () => {
     name: "Dr. D.V.S.B.Rammurthy",
     role: "Dermatologist",
     company: "Skin & Health",
-    image: "src/assets/intalks-podcast-13.jpg",
+    image:  guest13,
     episodes: ["30 yrs experienced Dermat says “You don’t need Sunscreen!"],
     youtubeLink: "https://youtu.be/qyHhRBAksYg?si=6JSrEJHhoezcIkB9",
     episodeNumber: 13,
@@ -152,7 +181,7 @@ const Guests = () => {
     name: "K.V.Vijaya Kumar",
     role: "Legal Advice & Personal Safety",
     company: "Retired Judge",
-    image: "src/assets/intalks-podcast-14.jpg",
+    image: guest14,
     episodes: ["ఏంటి మగవాళ్ళు కూడా భరణం తీసుకోవచ్చా?"],
     youtubeLink: "https://youtu.be/00gLQbey8_g?si=OeaTyGggBJGXgmdF",
     episodeNumber: 14,
@@ -162,7 +191,7 @@ const Guests = () => {
     name: "Rajya Lakshmi",
     role: "Service to humanity",
     company: "Community Service",
-    image: "src/assets/intalks-podcast-15.jpg",
+    image: guest15,
     episodes: ["Service to humanity is service to God"],
     youtubeLink: "https://youtu.be/nlYt7ZDM2eI?si=wmFmfgEaFez-Kdct",
     episodeNumber : 15,
@@ -172,7 +201,7 @@ const Guests = () => {
     name: "Dora Raju",
     role: "Entrepreneurship & Business Success",
     company: "Entrepreneur",
-    image: "src/assets/intalks-podcast-16.jpg",
+    image: guest16,
     episodes: ["₹15 లక్షల అప్పు నుంచి Sweet Success వరుకు!"],
     youtubeLink: "https://youtu.be/EedTBmAC0oc?si=huKFCU8LTgZF-0Kv",
     episodeNumber: 16,
@@ -182,7 +211,7 @@ const Guests = () => {
     name: "Dr. Suhas B Shetty",
     role: "Business & Food Industry",
     company: "Ice Cream Brand",
-    image: "src/assets/intalks-podcast-17.jpg",
+    image: guest17,
     episodes: ["నీ Ice-cream లో Milk Vunda"],
     youtubeLink: "https://youtu.be/XHr2ncS8Seg?si=vWZJwudpuwC-PyHI",
     episodeNumber: 17,
@@ -192,7 +221,7 @@ const Guests = () => {
     name: "Rama Sita",
     role: "Women’s Empowerment & Personal Growth",
     company: "Sports & Family",
-    image: "src/assets/intalks-podcast-18.jpg",
+    image: guest18,
     episodes: ["Every Women Must Watch"],
     youtubeLink: "https://youtu.be/uxOnm6B79ng?si=UtzIAY-FkOTiTliG",
     episodeNumber: 18,
@@ -202,7 +231,7 @@ const Guests = () => {
     name: "CA Mahamood Shaik",
     role: "Business & Finance",
     company: "Chartered Accountant",
-    image: "src/assets/intalks-podcast-19.jpg",
+    image: guest19,
     episodes: ["Shocking! How a Boatman Earned ₹30Cr & Paid 30% Tax"],
     youtubeLink: "https://youtu.be/-GsfH1Evq5k?si=E269IPKmGCTrJfGO",
     episodeNumber: 19,
@@ -212,7 +241,7 @@ const Guests = () => {
     name: "Raj R",
     role: "Film & Entertainment",
     company: "Filmmaker",
-    image: "src/assets/intalks-podcast-20.jpg",
+    image: guest20,
     episodes: ["What It Really Takes to Make a Realistic Movie"],
     youtubeLink: "https://youtu.be/Nk92Ex-AnyU?si=GVHl0RNQqtt_eFEP",
     episodeNumber: 20,
@@ -222,7 +251,7 @@ const Guests = () => {
     name: "Uma Maheshwar",
     role: "GV Mall Chairman",
     company: "GV Mall",
-    image: "src/assets/intalks-podcast-21.jpg",
+    image: guest21, 
     episodes: ["Future లో Malls ఉంటాయా?"],
     youtubeLink: "https://youtu.be/B9cOn169Xzo?si=nd2pUkBHzDgKbcWW",
     episodeNumber: 21,
@@ -232,7 +261,7 @@ const Guests = () => {
     name: "Dr. V. Anuradha",
     role: "Parenting & Family",
     company: "Vignan",
-    image: "src/assets/intalks-podcast-22.jpg",
+    image: guest22,
     episodes: ["Vignan Principal On Being A Mother"],
     youtubeLink: "https://youtu.be/q1UzxcrmUCQ?si=MNZ8z16OWnCiq6-P",
     episodeNumber: 22,
@@ -242,7 +271,7 @@ const Guests = () => {
     name: "Dr.Vivek",
     role: "Health & Cardiology",
     company: "Cardiologist",
-    image: "src/assets/intalks-podcast-23.jpg",
+    image: guest23,
     episodes: ["Youth Heart Attack Failures, Post Covid Vaccine Norms"],
     youtubeLink: "https://youtu.be/JrjFefgv2YI?si=qypL5JdWChWSerW6",
     episodeNumber: 23,
@@ -252,7 +281,7 @@ const Guests = () => {
     name: "Kiriti Damaraju",
     role: "Film & Career Stories",
     company: "Actor",
-    image: "src/assets/intalks-podcast-24.jpg",
+    image: guest24,
     episodes: ["Passion, Struggle & Film Industry"],
     youtubeLink: "https://youtu.be/D_J2PVyCSUU?si=twqQmgbwvpUjBpDk",
     episodeNumber: 24,
@@ -262,7 +291,7 @@ const Guests = () => {
     name: "Annapurnamma",
     role: "Film & Entertainment",
     company: "Actress",
-    image: "src/assets/intalks-podcast-25.jpg",
+    image: guest25,
     episodes: ["50 Years in Industry, 900+ Films"],
     youtubeLink: "https://youtu.be/P0eeyHQ5xz8?si=lEkS1OlkGFS59w15",
     episodeNumber: 25,
@@ -272,7 +301,7 @@ const Guests = () => {
     name: "Ravi Vadlamani",
     role: "Social Impact & Leadership",
     company: "Education",
-    image: "src/assets/intalks-podcast-26.jpg",
+    image: guest26,
     episodes: ["పేదవాడు పేద స్కూల్ లోనే చదవాలా!!!"],
     youtubeLink: "https://youtu.be/cTILII65dlM?si=Tl8TNE4f2UuRXMeB",
     episodeNumber: 26,
@@ -282,7 +311,7 @@ const Guests = () => {
     name: "Sri Santh Sadananda Giri",
     role: "Spirituality & Life Lessons",
     company: "Spiritual Leader",
-    image: "src/assets/intalks-podcast-27.jpg",
+    image: guest27,
     episodes: ["గుడులు, సనాతన ధర్మం, సత్యాలు"],
     youtubeLink: "https://youtu.be/EXf7R4PePmk?si=KHEOV2q3bNtK1G8y",
     episodeNumber: 27,
@@ -292,7 +321,7 @@ const Guests = () => {
     name: "Retd Major General Ravi Ravada NSG",
     role: "Patriotism & National Security",
     company: "Indian Army",
-    image: "src/assets/intalks-podcast-28.jpg",
+    image: guest28,
     episodes: ["37 ఏళ్లు దేశానికి అంకితం 🔥"],
     youtubeLink: "https://youtu.be/u8qEUzabOkE?si=-7x6PXw3MQJfRPXI",
     episodeNumber: 28,
@@ -302,7 +331,7 @@ const Guests = () => {
     name: "IAS M Gopala Krishna (Retd)",
     role: "Governance & Public Service",
     company: "IAS Officer",
-    image: "src/assets/intalks-podcast-29.jpg",
+    image: guest29,
     episodes: ["Reservation vs Talent: Explained"],
     youtubeLink: "https://youtu.be/crY9TCPI5hk?si=TlnVk5wSNnMhjIQ6",
     episodeNumber: 29,
