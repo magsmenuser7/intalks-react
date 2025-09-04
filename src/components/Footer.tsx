@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#111111] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
@@ -22,8 +22,8 @@ const Footer = () => {
               </div>
               {/* <span className="font-bold text-xl">InTalks</span> */}
             </div>
-            <p className="text-gray-300 mb-6 max-w-md text-justify">
-              As Intalks evolved, we brought in voices from diverse industries including healthcare, food and hospitality, footwear, film, education, and technology. Each episode uncovers real-life case scenarios, clears common myths, and shares practical insights enriching everyday lives with meaningful conversations.            </p>
+            <p className="text-gray-300 mb-6 max-w-sm text-justify">
+              As Intalks evolved, we brought in voices from diverse industries including healthcare, food and hospitality, footwear, film, education, and technology. Each episode uncovers real-life case scenarios, clears common myths, and shares practical insights enriching everyday lives with meaningful conversations.</p>
             <div className="flex space-x-3">
               {/* YouTube */}
               <a
@@ -123,6 +123,18 @@ const Footer = () => {
               <li><Link to="/contact" className="text-gray-300 hover:text-[#F7B58D] transition-colors duration-200">Contact Us</Link></li>
             </ul>
           </div>
+
+            <div>
+            <h3 className="font-semibold text-lg mb-4">Address</h3>
+            <p className="text-gray-300 leading-relaxed">
+              Brodipet 6th Line
+              Beside Arundalpet Police Station
+              Guntur, Andhra Pradesh - 522002
+            </p>
+          </div>
+
+         
+
         </div>
 
         {/* Newsletter */}
