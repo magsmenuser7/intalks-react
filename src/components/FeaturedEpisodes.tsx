@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import podcast29Thumb from "../assets/intalks-podcast-29.jpg";
 import podcast28Thumb from "../assets/intalks-podcast-28.jpg";
 import podcast27Thumb from "../assets/intalks-podcast-27.jpg";
+import podcast30Thumb from "../assets/intalks.podcast-30-2.jpg";
+import podcast31Thumb from "../assets/intalks-podcast-31.jpg";
+import podcast32Thumb from "../assets/intalks-podcast-32.jpg";
 
 interface Episode {
   id: number;
@@ -19,33 +22,33 @@ const FeaturedEpisodes = () => {
   const episodes: Episode[] = [
     {
       id: 1,
-      title: "Lessons in Leadership and Service",
-      guest: "IAS M Gopala Krishna (Retd)",
-      duration: "1:15:17 min",
-      thumbnail: podcast29Thumb,
+      title: "V S R Murthy: Exploring Life, God, Karma & the Science of Spirituality",
+      guest: "VSR Murthy",
+      duration: "1:40:21 min",
+      thumbnail: podcast30Thumb,
       description:
-        "A remarkable journey through elections, governance, and mentorship, offering timeless insights on democracy, leadership, ethics, and public service.",
-      youtubeLink: "https://youtu.be/crY9TCPI5hk?si=oWWPbE0A5RiDEPWO" // Replace with actual link
+        "Today’s guest, V S R Murthy, affectionately known as a “Spiritual Scientist” by Puttaparthi Sai Baba, takes us on a fascinating journey through the deepest questions of existence — life, God, science, karma, astrology, love, and the purpose of it all.",
+      youtubeLink: "https://www.youtube.com/watch?v=sXHux49QGsk" // Replace with actual link
     },
     {
       id: 2,
-      title: "Life, Service, and Sacrifice",
-      guest: "Retd Major General Ravi Ravada NSG ",
-      duration: "1:12:45 min",
-      thumbnail: podcast28Thumb,
+      title: "Building India’s Tech Future: A Conversation with J.A. Chowdary",
+      guest: "JA Chowdary",
+      duration: "1:27:57 min",
+      thumbnail: podcast31Thumb,
       description:
-        "An inspiring journey of courage, discipline, and sacrifice, exploring patriotism, national security, global diplomacy, and life’s true simplicity.",
-      youtubeLink: "https://youtu.be/u8qEUzabOkE?si=PFc4tBD_AQYwZ1YP" // Replace with actual link
+        "Visionary leader J.A. Chowdary shares his incredible journey as one of the key architects behind Hyderabad’s IT revolution and the driving force in building Fintech Valley Vizag.",
+      youtubeLink: "https://www.youtube.com/watch?v=y1EV-SqsX7c&t=379s" // Replace with actual link
     },
     {
       id: 3,
-      title: "Eternal Insights with Swamiji",
-      guest: "Sri Santh Sadananda Giri ",
-      duration: "1:30:28 min",
-      thumbnail: podcast27Thumb,
+      title: "The Voice of Peace: Ghazal Srinivas on Music, Humanity, and Global Harmony",
+      guest: "Ghazal Srinivas",
+      duration: "1:17:01 min",
+      thumbnail: podcast32Thumb,
       description:
-        "We sit down with Sri Santh Sadananda Giri Swamiji, a revered spiritual teacher aged 109, to discuss some of the most important aspects of life that often go unnoticed in today's fast-paced world.",
-      youtubeLink: "https://youtu.be/EXf7R4PePmk?si=l3-Let2cI1lerqZ8" // Replace with actual link
+        "In this soulful conversation, Sandeep sits down with Ghazal Srinivas, a Guinness World Record holder and global peace ambassador who gave Telugu Ghazals their own identity. From humble beginnings in Palakol to performing in over 100 languages across the world.",
+      youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1552s" // Replace with actual link
     },
   ];
 

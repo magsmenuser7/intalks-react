@@ -29,6 +29,9 @@ import guest26 from "../assets/intalks-podcast-26.jpg";
 import guest27 from "../assets/intalks-podcast-27.jpg"; 
 import guest28 from "../assets/intalks-podcast-28.jpg";
 import guest29 from "../assets/intalks-podcast-29.jpg";
+import guest30 from "../assets/intalks.podcast-30-2.jpg";
+import guest31 from "../assets/intalks-podcast-31.jpg";
+import guest32 from "../assets/intalks-podcast-32.jpg";
 
 interface Episode {
   id: number;
@@ -397,6 +400,42 @@ const Episodes = () => {
       description: "An inspiring conversation on UPSC, governance, leadership, and ethics with lessons from decades of public service experience.",
       views: "2.3k",
       youtubeLink: "https://youtu.be/crY9TCPI5hk?si=TlnVk5wSNnMhjIQ6"
+    },
+    {
+      id: 30,
+      title: "V S R Murthy: Exploring Life, God, Karma & the Science of Spirituality",
+      guest: "VSR Murthy",
+      duration: "1:140:21 min",
+      date: "September 22, 2025",
+      category: "Spirituality & Philosophy",
+      thumbnail:  guest30,
+      description: "V S R Murthy, affectionately known as a “Spiritual Scientist” by Puttaparthi Sai Baba,takes us on a fascinating journey through the deepest questions of existence — life,God, science, karma, astrology, love, and the purpose of it all.",
+      views: "45.832k",
+      youtubeLink: "https://www.youtube.com/watch?v=sXHux49QGsk"
+    },
+    {
+      id: 31,
+      title: "Building India’s Tech Future: A Conversation with J.A. Chowdary",
+      guest: "JA Chowdary",
+      duration: "1:27:57 min",
+      date: "October 19, 2025",
+      category: "Technology & Leadership",
+      thumbnail:  guest31,
+      description: "In this episode, J.A. Chowdary — Founder of ISF & Junicorn 100K Key Architect of the Indian Tech Ecosystem, and Former Special Chief Secretary & IT Advisor to the Chief Minister of Andhra Pradesh shares his incredible journey and contributions in shaping Hyderabad’s tech revolution and building Fintech Valley Vizag. His insights offer a rare glimpse into the vision, leadership, and innovation that have powered India’s technology growth.",
+      views: "14.527k",
+      youtubeLink: "https://www.youtube.com/watch?v=y1EV-SqsX7c&t=382s"
+    },
+    {
+      id: 32,
+      title: "The Voice of Peace: Ghazal Srinivas on Music, Humanity, and Global Harmony",
+      guest: "Ghazal Srinivas",
+      duration: "1:17:01 min",
+      date: "October 31, 2025",
+      category: "Music & Peace",
+      thumbnail:  guest32,
+      description: "In this soulful conversation, Sandeep sits down with Ghazal Srinivas, a Guinness World Record holder and global peace ambassador who gave Telugu Ghazals their own identity. From humble beginnings in Palakol to performing in over 100 languages across the world.",
+      views: "841",
+      youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1557s"
     },
   ];
 

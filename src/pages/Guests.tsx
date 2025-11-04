@@ -29,6 +29,9 @@ import guest26 from "../assets/intalks-podcast-26.jpg";
 import guest27 from "../assets/intalks-podcast-27.jpg"; 
 import guest28 from "../assets/intalks-podcast-28.jpg";
 import guest29 from "../assets/intalks-podcast-29.jpg";
+import guest30 from "../assets/intalks.podcast-30-2.jpg";
+import guest31 from "../assets/intalks-podcast-31.jpg";
+import guest32 from "../assets/intalks-podcast-32.jpg";
 
 interface Guest {
   id: number;
@@ -335,6 +338,36 @@ const Guests = () => {
     episodes: ["Reservation vs Talent: Explained"],
     youtubeLink: "https://youtu.be/crY9TCPI5hk?si=TlnVk5wSNnMhjIQ6",
     episodeNumber: 29,
+  },
+  {
+    id: 30,
+    name: "V S R Murthy",
+    role: "Spirituality & Science",
+    company: "IAS Officer",
+    image: guest30,
+    episodes: ["Does God Exist?"],
+    youtubeLink: "https://www.youtube.com/watch?v=sXHux49QGsk",
+    episodeNumber: 30,
+  },
+  {
+    id: 31,
+    name: "J.A. Chowdary",
+    role: "Technology & Leadership",
+    company: "IAS Officer",
+    image: guest31,
+    episodes: ["JA Chowdary on Layoffs, AI, Andhra Future"],
+    youtubeLink: "https://www.youtube.com/watch?v=y1EV-SqsX7c&t=924s",
+    episodeNumber: 31,
+  },
+  {
+    id: 32,
+    name: "Ghazal Srinivas",
+    role: "Music & Peace",
+    company: "IAS Officer",
+    image: guest32,
+    episodes: ["పదాలకు అతీతమైన సంగీత అనుభూతి"],
+    youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1681s",
+    episodeNumber: 32,
   }
   ];
 
