@@ -32,6 +32,7 @@ import guest29 from "../assets/intalks-podcast-29.jpg";
 import guest30 from "../assets/intalks.podcast-30-2.jpg";
 import guest31 from "../assets/intalks-podcast-31.jpg";
 import guest32 from "../assets/intalks-podcast-32.jpg";
+import guest33 from "../assets/intalks-podcast-33.jpg";
 
 interface Guest {
   id: number;
@@ -368,6 +369,16 @@ const Guests = () => {
     episodes: ["పదాలకు అతీతమైన సంగీత అనుభూతి"],
     youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1681s",
     episodeNumber: 32,
+  },
+   {
+    id: 33,
+    name: "Dr.Chandana Gaddipati",
+    role: "Health,Wellness & Neuroscience / Brain Health",
+    company: "IAS Officer",
+    image: guest33,
+    episodes: ["Dreams ఏ colour లో వస్తాయి?"],
+    youtubeLink: "https://www.youtube.com/watch?v=DYKBI5YqIZk",
+    episodeNumber: 33,
   }
   ];
 

@@ -32,6 +32,7 @@ import guest29 from "../assets/intalks-podcast-29.jpg";
 import guest30 from "../assets/intalks.podcast-30-2.jpg";
 import guest31 from "../assets/intalks-podcast-31.jpg";
 import guest32 from "../assets/intalks-podcast-32.jpg";
+import guest33 from "../assets/intalks-podcast-33.jpg";
 
 interface Episode {
   id: number;
@@ -436,6 +437,18 @@ const Episodes = () => {
       description: "In this soulful conversation, Sandeep sits down with Ghazal Srinivas, a Guinness World Record holder and global peace ambassador who gave Telugu Ghazals their own identity. From humble beginnings in Palakol to performing in over 100 languages across the world.",
       views: "841",
       youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1557s"
+    },
+    {
+      id: 33,
+      title: "Dreams ఏ colour లో వస్తాయి?",
+      guest: "Dr.Chandana Gaddipati",
+      duration: "1:25:44 min",
+      date: "Nov 15, 2025",
+      category: "Health,Wellness & Neuroscience / Brain Health",
+      thumbnail:  guest33,
+      description: "In this episode,Dr. Chandana Gaddipati — Neurophysician and one of the most insightful voices on brain health — offers a clear, honest conversation about how our everyday habits are shaping, and sometimes damaging, the brain.",
+      views: "841",
+      youtubeLink: "https://www.youtube.com/watch?v=DYKBI5YqIZk"
     },
   ];
 
