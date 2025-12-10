@@ -43,7 +43,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-[#F7B58D]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-[#F7B58D]/20 hover:border-[#F7B58D]/40 transition-all duration-500 hover:transform hover:-translate-y-2">
                 <div className="text-4xl md:text-5xl font-bold text-[#F7B58D] mb-3">
-                  <AnimatedCounter end={18.4} suffix="M" />
+                  <AnimatedCounter end={20.3} suffix="M" />
                 </div>
                 <p className="text-gray-600 font-medium">YouTube Views</p>
                 <div className="mt-4 h-1 bg-gradient-to-r from-[#F7B58D] to-transparent rounded-full"></div>
@@ -54,7 +54,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-[#F7B58D]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-[#F7B58D]/20 hover:border-[#F7B58D]/40 transition-all duration-500 hover:transform hover:-translate-y-2">
                 <div className="text-4xl md:text-5xl font-bold text-[#F7B58D] mb-3">
-                  <AnimatedCounter end={28.1} suffix="M+" />
+                  <AnimatedCounter end={40.1} suffix="M+" />
                 </div>
                 <p className="text-gray-600 font-medium">Instagram Views</p>
                 <div className="mt-4 h-1 bg-gradient-to-r from-[#F7B58D] to-transparent rounded-full"></div>
@@ -65,7 +65,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-[#F7B58D]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-[#F7B58D]/20 hover:border-[#F7B58D]/40 transition-all duration-500 hover:transform hover:-translate-y-2">
                 <div className="text-4xl md:text-5xl font-bold text-[#F7B58D] mb-3">
-                  <AnimatedCounter end={1} suffix=" Lakh+" />
+                  <AnimatedCounter end={1.2} suffix=" Lakh+" />
                 </div>
                 <p className="text-gray-600 font-medium">Community</p>
                 <div className="mt-4 h-1 bg-gradient-to-r from-[#F7B58D] to-transparent rounded-full"></div>
