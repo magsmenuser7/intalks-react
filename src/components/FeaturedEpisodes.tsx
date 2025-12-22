@@ -8,6 +8,8 @@ import podcast30Thumb from "../assets/intalks.podcast-30-2.jpg";
 import podcast31Thumb from "../assets/intalks-podcast-31.jpg";
 import podcast32Thumb from "../assets/intalks-podcast-32.jpg";
 import podcast33Thumb from "../assets/intalks-podcast-33.jpg";
+import podcast34Thumb from "../assets/intalks-podcast-34.jpg";
+
 
 interface Episode {
   id: number;
@@ -21,8 +23,18 @@ interface Episode {
 
 const FeaturedEpisodes = () => {
   const episodes: Episode[] = [
-    {
+        {
       id: 1,
+      title: "Pregnancy, Sperm Health & the Father’s Role | OBGYN Dr. Vasantha Dasari Explains",
+      guest: "Dr. Vasantha Dasari",
+      duration: "1:23:27 min",
+      thumbnail: podcast34Thumb,
+      description:
+        "Dr. Vasantha Dasari (MBBS, DNB OBG, FMAS), a senior Obstetrician and Gynecologist, to explore a side of pregnancy that often goes unspoken—the father’s role.",
+      youtubeLink: "https://www.youtube.com/watch?v=sFOF1rn4Qwg" // Replace with actual link
+    },
+    {
+      id: 2,
       title: "Dr.Chandana Gaddipati:Emotional, Human & Engaging",
       guest: "Dr. Chandana Gaddipati",
       duration: "1:25:44 min",
@@ -32,7 +44,7 @@ const FeaturedEpisodes = () => {
       youtubeLink: "https://www.youtube.com/watch?v=DYKBI5YqIZk" // Replace with actual link
     },
       {
-      id: 2,
+      id: 3,
       title: "The Voice of Peace: Ghazal Srinivas on Music, Humanity, and Global Harmony",
       guest: "Ghazal Srinivas",
       duration: "1:17:01 min",
@@ -40,16 +52,6 @@ const FeaturedEpisodes = () => {
       description:
         "In this soulful conversation, Sandeep sits down with Ghazal Srinivas, a Guinness World Record holder and global peace ambassador who gave Telugu Ghazals their own identity. From humble beginnings in Palakol to performing in over 100 languages across the world.",
       youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1552s" // Replace with actual link
-    },
-    {
-      id: 3,
-      title: "Building India’s Tech Future: A Conversation with J.A. Chowdary",
-      guest: "JA Chowdary",
-      duration: "1:27:57 min",
-      thumbnail: podcast31Thumb,
-      description:
-        "Visionary leader J.A. Chowdary shares his incredible journey as one of the key architects behind Hyderabad’s IT revolution and the driving force in building Fintech Valley Vizag.",
-      youtubeLink: "https://www.youtube.com/watch?v=y1EV-SqsX7c&t=379s" // Replace with actual link
     },
   
   ];

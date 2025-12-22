@@ -22,17 +22,19 @@ import guest19 from "../assets/intalks-podcast-19.jpg";
 import guest20 from "../assets/intalks-podcast-20.jpg";
 import guest21 from "../assets/intalks-podcast-21.jpg";
 import guest22 from "../assets/intalks-podcast-22.jpg";
-import guest23 from "../assets/intalks-podcast-23.jpg"; 
+import guest23 from "../assets/intalks-podcast-23-latest.jpeg"; 
 import guest24 from "../assets/intalks-podcast-24.jpg";
 import guest25 from "../assets/intalks-podcast-25.jpg";
 import guest26 from "../assets/intalks-podcast-26.jpg";
-import guest27 from "../assets/intalks-podcast-27.jpg"; 
+import guest27 from "../assets/intalks-podcast-27-latest.jpeg"; 
 import guest28 from "../assets/intalks-podcast-28.jpg";
 import guest29 from "../assets/intalks-podcast-29.jpg";
 import guest30 from "../assets/intalks.podcast-30-2.jpg";
 import guest31 from "../assets/intalks-podcast-31.jpg";
 import guest32 from "../assets/intalks-podcast-32.jpg";
 import guest33 from "../assets/intalks-podcast-33.jpg";
+import guest34 from "../assets/intalks-podcast-34.jpg";
+
 
 interface Guest {
   id: number;
@@ -379,6 +381,16 @@ const Guests = () => {
     episodes: ["Dreams ఏ colour లో వస్తాయి?"],
     youtubeLink: "https://www.youtube.com/watch?v=DYKBI5YqIZk",
     episodeNumber: 33,
+  },
+  {
+    id: 34,
+    name: "Dr. Vasantha Dasari",
+    role: "Parenting | Men’s Health | Pregnancy Awareness",
+    company: "IAS Officer",
+    image: guest34,
+    episodes: ["50% మగవాళ్ళ వల్లే pregnancy రాదు"],
+    youtubeLink: "https://www.youtube.com/watch?v=sFOF1rn4Qwg",
+    episodeNumber: 34,
   }
   ];
 

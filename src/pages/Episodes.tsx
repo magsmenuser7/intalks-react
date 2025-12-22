@@ -22,17 +22,19 @@ import guest19 from "../assets/intalks-podcast-19.jpg";
 import guest20 from "../assets/intalks-podcast-20.jpg";
 import guest21 from "../assets/intalks-podcast-21.jpg";
 import guest22 from "../assets/intalks-podcast-22.jpg";
-import guest23 from "../assets/intalks-podcast-23.jpg"; 
+import guest23 from "../assets/intalks-podcast-23-latest.jpeg"; 
 import guest24 from "../assets/intalks-podcast-24.jpg";
 import guest25 from "../assets/intalks-podcast-25.jpg";
 import guest26 from "../assets/intalks-podcast-26.jpg";
-import guest27 from "../assets/intalks-podcast-27.jpg"; 
+import guest27 from "../assets/intalks-podcast-27-latest.jpeg"; 
 import guest28 from "../assets/intalks-podcast-28.jpg";
 import guest29 from "../assets/intalks-podcast-29.jpg";
 import guest30 from "../assets/intalks.podcast-30-2.jpg";
 import guest31 from "../assets/intalks-podcast-31.jpg";
 import guest32 from "../assets/intalks-podcast-32.jpg";
 import guest33 from "../assets/intalks-podcast-33.jpg";
+import guest34 from "../assets/intalks-podcast-34.jpg";
+
 
 interface Episode {
   id: number;
@@ -63,7 +65,7 @@ const Episodes = () => {
       category: "Healthcare Leadership",
       thumbnail: guest1,
       description: "Dr. Rayapati Mamatha shares her inspiring journey from medical student to hospital leader, blending healthcare expertise with management.",
-      views: "10.5k",
+      views: "10,545k",
       youtubeLink:"https://youtu.be/9cgx45gJfE8?si=rEFz2FyR26shhk7X"
     },
     {
@@ -75,7 +77,7 @@ const Episodes = () => {
       category: "Business & Entrepreneurship",
       thumbnail: guest2,
       description: "Sakku Madhavi shares challenges, triumphs, and strategies shaping women’s evolving roles, leadership, and entrepreneurial success in business.",
-      views: "2.191k",
+      views: "2,316k",
       youtubeLink: "https://youtu.be/xeMl0V16CHU?si=2QwR-iZ-mORi6OYr"
     },
     {
@@ -87,7 +89,7 @@ const Episodes = () => {
       category: "Interior Design",
       thumbnail: guest3,
       description: "Ram explores interior design’s evolution, temple architecture’s influence, and challenges posed by Pinterest’s often unrealistic design expectations.",
-      views: "3.6k",
+      views: "3,664k",
       youtubeLink: "https://youtu.be/Y2ABoUuEkSw?si=dDAR-CBp-wIidhTx"
     },
     {
@@ -99,7 +101,7 @@ const Episodes = () => {
       category: "IT Founder",
       thumbnail: guest4,
       description: "Sridhar explores student mindsets, AI’s transformative impact across industries, and shares practical strategies for academic and professional growth.",
-      views: "2.3k",
+      views: "2,333k",
       youtubeLink: "https://youtu.be/Tu1Z5w_lEqo?si=KJ2LTwpXYLIZIUhJ"
     },
     {
@@ -111,7 +113,7 @@ const Episodes = () => {
       category: "Shakthi an Ayurvedic Nut Powder",
       thumbnail: guest5,
       description: "Dr. Subramanyam shares Shakthi’s journey, blending Ayurvedic wisdom with modern nutrition to promote sustainable, holistic wellness solutions.",
-      views: "893",
+      views: "904",
       youtubeLink: "https://youtu.be/VLAvgT2WUJI?si=ebYECzJURxKcQgmG"
     },
     {
@@ -123,7 +125,7 @@ const Episodes = () => {
       category: "creators",
       thumbnail: guest6,
       description: "Saikesh Goud exposes poultry industry dangers, revealing clean, drug-free alternatives for healthier, sustainable eating and food safety.",
-      views: "11k",
+      views: "11,723k",
       youtubeLink: "https://youtu.be/N0MHDT29Gsk?si=afC5Wjai32xaom4k"
     },
     {
@@ -135,7 +137,7 @@ const Episodes = () => {
       category: "Fashion & Lifestyle",
       thumbnail: guest7,
       description: "Explore footwear’s artistry and business, from sneakers to sandals, with insights from designers, retailers, and passionate shoe lovers.",
-      views: "6.9k",
+      views: "7,040k",
       youtubeLink: "https://youtu.be/C4-0iwevOY8?si=YEn-RKS9QBRIovEY"
     },
      {
@@ -147,7 +149,7 @@ const Episodes = () => {
       category: "Coconut Industry & FMCG Insights",
       thumbnail:  guest8,
       description: "Discover coconut industry secrets with Vepuri Foods’ Vikas, exploring traditions, innovations, challenges, and surprising business insights.",
-      views: "32k",
+      views: "34,081k",
       youtubeLink: "https://youtu.be/C4-0iwevOY8?si=YEn-RKS9QBRIovEY"
     },
     {
@@ -159,7 +161,7 @@ const Episodes = () => {
       category: "Health & Dentistry",
       thumbnail: guest9,
       description: "Explore dental health, smile design trends, and expert tips with Dr. Praneeth Kumar on necessity versus cosmetic choice.",
-      views: "4.7k",
+      views: "4,846k",
       youtubeLink: "https://youtu.be/x7HEwRWvZTQ?si=s7H1RJ9UDkGt4yI5"
     },
     {
@@ -171,7 +173,7 @@ const Episodes = () => {
       category: "Podcaster vs Marketer",
       thumbnail: guest10,
       description: "Join Vivek in Part 2 as he shares bold marketing strategies, creative insights, and playful branding experiments.",
-      views: "943",
+      views: "2,333k",
       youtubeLink: "https://youtu.be/e0ybzD7FNmo?si=PBqHCYk_lSWPPi3S"
     },
      {
@@ -183,7 +185,7 @@ const Episodes = () => {
       category: "Ad Flimmaker",
       thumbnail: guest11,
       description: "Explore Telugu advertising secrets with Yamuna Kishore, uncovering creative strategies, memorable slogans, and insights for aspiring filmmakers.",
-      views: "5k",
+      views: "5,160k",
       youtubeLink: "https://youtu.be/EVwapJkZuf8?si=JaX2HFc2OAzzhg-P"
     },
      {
@@ -195,7 +197,7 @@ const Episodes = () => {
       category: "Business & Intellectual Property",
       thumbnail: guest12,
       description: "Learn how to protect ideas, trademarks, copyrights, and personality rights with insights from Adithya Saha on Intalks.",
-      views: "685",
+      views: "729",
       youtubeLink: "https://youtu.be/sYcJ0WsYVMU?si=zvJWu8JlW0hOXdTj"
     },
     {
@@ -207,7 +209,7 @@ const Episodes = () => {
       category: "Dermatologist",
       thumbnail: guest13,
       description: "Dr.Rammurthy shares expert skincare tips, debunks myths, and reveals habits for healthy, radiant skin naturally.",
-      views: "13k",
+      views: "13,714k",
       youtubeLink: "https://youtu.be/qyHhRBAksYg?si=6JSrEJHhoezcIkB9"
     },
     {
@@ -219,7 +221,7 @@ const Episodes = () => {
       category: "Legal Advice & Personal Safety",
       thumbnail:  guest14,
       description: "Retired Judge K.V. Vijaya Kumar explains signature pitfalls, real-life legal disputes, and ways to safeguard yourself effectively.",
-      views: "5.7k",
+      views: "5,870k",
       youtubeLink: "https://youtu.be/00gLQbey8_g?si=OeaTyGggBJGXgmdF"
     },
     {
@@ -231,7 +233,7 @@ const Episodes = () => {
       category: "Service to humanity",
       thumbnail:  guest15,
       description: "Rajya Lakshmi Vadlamani shares inspiring stories of service, leadership, and making a meaningful difference in the community.",
-      views: "7.6k",
+      views: "8,106k",
       youtubeLink: "https://youtu.be/nlYt7ZDM2eI?si=wmFmfgEaFez-Kdct"
     },
     {
@@ -243,7 +245,7 @@ const Episodes = () => {
       category: "Entrepreneurship & Business Success",
       thumbnail:  guest16,
       description: "Dora Babu shares his journey overcoming ₹15 lakh debt, business challenges, and lessons in ethical entrepreneurship.",
-      views: "1.3k",
+      views: "1,401k",
       youtubeLink: "https://youtu.be/EedTBmAC0oc?si=huKFCU8LTgZF-0Kv"
     },
     {
@@ -255,7 +257,7 @@ const Episodes = () => {
       category: "Business & Food Industry",
       thumbnail:  guest17,
       description: "Explore the journey of building a premium organic ice cream brand, overcoming challenges, and thriving in a competitive market.",
-      views: "2.5k",
+      views: "2,680k",
       youtubeLink: "https://youtu.be/XHr2ncS8Seg?si=vWZJwudpuwC-PyHI"
     },
      {
@@ -267,7 +269,7 @@ const Episodes = () => {
       category: "Women’s Empowerment & Personal Growth",
       thumbnail:  guest18,
       description: "Explore an inspiring journey of balancing sports, ambition, and family, highlighting resilience, dedication, and self-discovery.",
-      views: "12k",
+      views: "12,194k",
       youtubeLink: "https://youtu.be/uxOnm6B79ng?si=UtzIAY-FkOTiTliG"
     },
      {
@@ -279,7 +281,7 @@ const Episodes = () => {
       category: "Business & Finance",
       thumbnail:  guest19,  
       description: "Learn essential financial strategies, tax tips, and business structures for startups and entrepreneurs to secure long-term success.",
-      views: "2.9k",
+      views: "3,729k",
       youtubeLink: "https://youtu.be/-GsfH1Evq5k?si=E269IPKmGCTrJfGO"
     },
      {
@@ -291,7 +293,7 @@ const Episodes = () => {
       category: "Film & Entertainment",
       thumbnail:  guest20,
       description: "Explore behind-the-scenes of Telugu filmmaking, from casting and funding to creative challenges faced by indie filmmakers.",
-      views: "3.7k",
+      views: "3,795k",
       youtubeLink: "https://youtu.be/Nk92Ex-AnyU?si=GVHl0RNQqtt_eFEP"
     },
      {
@@ -303,7 +305,7 @@ const Episodes = () => {
       category: "GV Mall Chairman",
       thumbnail:  guest21,
       description: "Learn how a traditional clothing business modernized, embracing systemization, marketing strategies, and adapting to post-COVID retail changes.",
-      views: "10.3k",
+      views: "10,911k",
       youtubeLink: "https://youtu.be/B9cOn169Xzo?si=nd2pUkBHzDgKbcWW"
     },
      {
@@ -315,7 +317,7 @@ const Episodes = () => {
       category: "Parenting & Family",
       thumbnail:  guest22,
       description: "A heartfelt conversation exploring motherhood, parenting challenges, family bonds, discipline, and the unsaid aspects of raising children.",
-      views: "1.1k",
+      views: "1,243k",
       youtubeLink: "https://youtu.be/q1UzxcrmUCQ?si=MNZ8z16OWnCiq6-P"
     },
      {
@@ -327,7 +329,7 @@ const Episodes = () => {
       category: "Health & Cardiology",
       thumbnail:  guest23,
       description: "Learn to differentiate heart attack from gas pain, recognize cardiac risks, and adopt life-saving heart-healthy habits.",
-      views: "4k",
+      views: "4,234k",
       youtubeLink: "https://youtu.be/JrjFefgv2YI?si=qypL5JdWChWSerW6"
     },
     {
@@ -339,7 +341,7 @@ const Episodes = () => {
       category: "Film & Career Stories",
       thumbnail:  guest24,
       description: "Discover the journey of balancing a 9-5 job with acting, overcoming struggles, and pursuing cinematic passion.",
-      views: "545",
+      views: "592",
       youtubeLink: "https://youtu.be/D_J2PVyCSUU?si=twqQmgbwvpUjBpDk"
     },
      {
@@ -351,7 +353,7 @@ const Episodes = () => {
       category: "Film & Entertainment",
       thumbnail:  guest25,
       description: "Annapurnamma Garu shares her five-decade Telugu cinema journey, insights on acting, legacy, and staying grounded in life.",
-      views: "33k",
+      views: "36,231k",
       youtubeLink: "https://youtu.be/P0eeyHQ5xz8?si=lEkS1OlkGFS59w15"
     },
     {
@@ -363,7 +365,7 @@ const Episodes = () => {
       category: "Social Impact & Leadership",
       thumbnail:  guest26,
       description: "Discover a journey of service, charity, and community impact, highlighting true success beyond fame and wealth.",
-      views: "1.8k",
+      views: "2,126k",
       youtubeLink: "https://youtu.be/cTILII65dlM?si=Tl8TNE4f2UuRXMeB"
     },
     {
@@ -375,7 +377,7 @@ const Episodes = () => {
       category: "Spirituality & Life Lessons",
       thumbnail:  guest27,
       description: "Swamiji shares profound wisdom on meditation, culture, and timeless life lessons for today’s fast-paced modern world.",
-      views: "2.1k",
+      views: "52,507k",
       youtubeLink: "https://youtu.be/EXf7R4PePmk?si=KHEOV2q3bNtK1G8y"
     },
     {
@@ -387,7 +389,7 @@ const Episodes = () => {
       category: "Patriotism & National Security",
       thumbnail:  guest28,  
       description: "Major General Ravi shares inspiring stories of discipline, courage, patriotism, and insights on national security, diplomacy, and leadership.",
-      views: "3.1k",
+      views: "3,457k",
       youtubeLink: "https://youtu.be/u8qEUzabOkE?si=-7x6PXw3MQJfRPXI"
     },
     {
@@ -399,7 +401,7 @@ const Episodes = () => {
       category: "Governance & Public Service",
       thumbnail:  guest29,
       description: "An inspiring conversation on UPSC, governance, leadership, and ethics with lessons from decades of public service experience.",
-      views: "2.3k",
+      views: "22,182k",
       youtubeLink: "https://youtu.be/crY9TCPI5hk?si=TlnVk5wSNnMhjIQ6"
     },
     {
@@ -411,7 +413,7 @@ const Episodes = () => {
       category: "Spirituality & Philosophy",
       thumbnail:  guest30,
       description: "V S R Murthy, affectionately known as a “Spiritual Scientist” by Puttaparthi Sai Baba,takes us on a fascinating journey through the deepest questions of existence — life,God, science, karma, astrology, love, and the purpose of it all.",
-      views: "45.832k",
+      views: "69,712k",
       youtubeLink: "https://www.youtube.com/watch?v=sXHux49QGsk"
     },
     {
@@ -423,7 +425,7 @@ const Episodes = () => {
       category: "Technology & Leadership",
       thumbnail:  guest31,
       description: "In this episode, J.A. Chowdary — Founder of ISF & Junicorn 100K Key Architect of the Indian Tech Ecosystem, and Former Special Chief Secretary & IT Advisor to the Chief Minister of Andhra Pradesh shares his incredible journey and contributions in shaping Hyderabad’s tech revolution and building Fintech Valley Vizag. His insights offer a rare glimpse into the vision, leadership, and innovation that have powered India’s technology growth.",
-      views: "14.527k",
+      views: "14,996k",
       youtubeLink: "https://www.youtube.com/watch?v=y1EV-SqsX7c&t=382s"
     },
     {
@@ -435,7 +437,7 @@ const Episodes = () => {
       category: "Music & Peace",
       thumbnail:  guest32,
       description: "In this soulful conversation, Sandeep sits down with Ghazal Srinivas, a Guinness World Record holder and global peace ambassador who gave Telugu Ghazals their own identity. From humble beginnings in Palakol to performing in over 100 languages across the world.",
-      views: "841",
+      views: "5,925k",
       youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1557s"
     },
     {
@@ -447,8 +449,20 @@ const Episodes = () => {
       category: "Health,Wellness & Neuroscience / Brain Health",
       thumbnail:  guest33,
       description: "In this episode,Dr. Chandana Gaddipati — Neurophysician and one of the most insightful voices on brain health — offers a clear, honest conversation about how our everyday habits are shaping, and sometimes damaging, the brain.",
-      views: "841",
+      views: "23,959k",
       youtubeLink: "https://www.youtube.com/watch?v=DYKBI5YqIZk"
+    },
+        {
+      id: 34,
+      title: "50% మగవాళ్ళ వల్లే pregnancy రాదు",
+      guest: "Dr. Vasantha Dasari",
+      duration: "1:23:27 min",
+      date: "Dec 20, 2025",
+      category: "Parenting | Men’s Health | Pregnancy Awareness",
+      thumbnail:  guest34,
+      description: "Dr. Vasantha Dasari (MBBS, DNB OBG, FMAS), a senior Obstetrician and Gynecologist, to explore a side of pregnancy that often goes unspoken the father’s role.",
+      views: "3099k",
+      youtubeLink: "https://www.youtube.com/watch?v=sFOF1rn4Qwg"
     },
   ];
 
