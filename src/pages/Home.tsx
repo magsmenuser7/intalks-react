@@ -9,8 +9,24 @@ import VisionSection from '../components/VisionSection';
 
 
 
+
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
+  const [stats, setStats] = useState<any>(null);
+
+  useEffect(() => {
+    // fetch("http://127.0.0.1:8000/api/intalks-stats/")
+    fetch("https://api.mibbs.ai/api/intalks-stats/")
+      .then(res => res.json())
+      .then(res => {
+        if (res.success) {
+          setStats(res.data);
+        }
+      });
+  }, []);
+
+  
+  
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -18,6 +34,9 @@ const Home = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+
+
+  
   return (
     <div className="min-h-screen overflow-hidden">
       {/* Modern Hero Section */}
@@ -43,7 +62,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-[#F7B58D]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-[#F7B58D]/20 hover:border-[#F7B58D]/40 transition-all duration-500 hover:transform hover:-translate-y-2">
                 <div className="text-4xl md:text-5xl font-bold text-[#F7B58D] mb-3">
-                  <AnimatedCounter end={20.9} suffix="M" />
+                  <AnimatedCounter end={Number(stats?.youtubestats) || 0} suffix="M" />
                 </div>
                 <p className="text-gray-600 font-medium">YouTube Views</p>
                 <div className="mt-4 h-1 bg-gradient-to-r from-[#F7B58D] to-transparent rounded-full"></div>
@@ -54,7 +73,8 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-[#F7B58D]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-[#F7B58D]/20 hover:border-[#F7B58D]/40 transition-all duration-500 hover:transform hover:-translate-y-2">
                 <div className="text-4xl md:text-5xl font-bold text-[#F7B58D] mb-3">
-                  <AnimatedCounter end={45} suffix="M+" />
+                  {/* <AnimatedCounter end={stats.instagramstats} suffix="M+" /> */}
+                  <AnimatedCounter end={Number(stats?.instagramstats) || 0} suffix="M+" />
                 </div>
                 <p className="text-gray-600 font-medium">Instagram Views</p>
                 <div className="mt-4 h-1 bg-gradient-to-r from-[#F7B58D] to-transparent rounded-full"></div>
@@ -65,13 +85,15 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-[#F7B58D]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-[#F7B58D]/20 hover:border-[#F7B58D]/40 transition-all duration-500 hover:transform hover:-translate-y-2">
                 <div className="text-4xl md:text-5xl font-bold text-[#F7B58D] mb-3">
-                  <AnimatedCounter end={1.2} suffix=" Lakh+" />
+                  <AnimatedCounter end={Number(stats?.communitygrowthstats) || 0} suffix="M+" />
                 </div>
                 <p className="text-gray-600 font-medium">Community</p>
                 <div className="mt-4 h-1 bg-gradient-to-r from-[#F7B58D] to-transparent rounded-full"></div>
               </div>
             </div>
           </div>
+
+
         </div>
       </section>
 

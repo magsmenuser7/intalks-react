@@ -1,14 +1,9 @@
+
 import React from 'react';
 import { Play, Clock, Users, Sparkles, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import podcast29Thumb from "../assets/intalks-podcast-29.jpg";
-import podcast28Thumb from "../assets/intalks-podcast-28.jpg";
-import podcast27Thumb from "../assets/intalks-podcast-27.jpg";
-import podcast30Thumb from "../assets/intalks.podcast-30-2.jpg";
-import podcast31Thumb from "../assets/intalks-podcast-31.jpg";
-import podcast32Thumb from "../assets/intalks-podcast-32.jpg";
-import podcast33Thumb from "../assets/intalks-podcast-33.jpg";
-import podcast34Thumb from "../assets/intalks-podcast-34.jpg";
+import { useState, useEffect } from 'react';
+
 
 
 interface Episode {
@@ -22,39 +17,22 @@ interface Episode {
 }
 
 const FeaturedEpisodes = () => {
-  const episodes: Episode[] = [
-        {
-      id: 1,
-      title: "Pregnancy, Sperm Health & the Father’s Role | OBGYN Dr. Vasantha Dasari Explains",
-      guest: "Dr. Vasantha Dasari",
-      duration: "1:23:27 min",
-      thumbnail: podcast34Thumb,
-      description:
-        "Dr. Vasantha Dasari (MBBS, DNB OBG, FMAS), a senior Obstetrician and Gynecologist, to explore a side of pregnancy that often goes unspoken—the father’s role.",
-      youtubeLink: "https://www.youtube.com/watch?v=sFOF1rn4Qwg" // Replace with actual link
-    },
-    {
-      id: 2,
-      title: "Dr.Chandana Gaddipati:Emotional, Human & Engaging",
-      guest: "Dr. Chandana Gaddipati",
-      duration: "1:25:44 min",
-      thumbnail: podcast33Thumb,
-      description:
-        "Dr. Chandana breaks down the science with clarity and compassion. This is a must-watch for anyone looking to protect, strengthen, and understand their brain better.",
-      youtubeLink: "https://www.youtube.com/watch?v=DYKBI5YqIZk" // Replace with actual link
-    },
-      {
-      id: 3,
-      title: "The Voice of Peace: Ghazal Srinivas on Music, Humanity, and Global Harmony",
-      guest: "Ghazal Srinivas",
-      duration: "1:17:01 min",
-      thumbnail: podcast32Thumb,
-      description:
-        "In this soulful conversation, Sandeep sits down with Ghazal Srinivas, a Guinness World Record holder and global peace ambassador who gave Telugu Ghazals their own identity. From humble beginnings in Palakol to performing in over 100 languages across the world.",
-      youtubeLink: "https://www.youtube.com/watch?v=DsPnkfaniTE&t=1552s" // Replace with actual link
-    },
-  
-  ];
+  const [episodes, setEpisodes] = useState<Episode[]>([]);
+
+
+  useEffect(() => {
+    // fetch("http://127.0.0.1:8000/api/home-episodes/")
+    fetch("https://api.mibbs.ai/api/home-episodes/")
+      .then(res => res.json())
+      .then(res => {
+        if (res.success) {
+          setEpisodes(res.data);
+        }
+      })
+      .catch(err => console.error("Fetch error:", err));
+  }, []);
+
+
 
   return (
     <section className="py-32 relative overflow-hidden">

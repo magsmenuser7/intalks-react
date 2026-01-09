@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import { CheckCircle, Phone, Mail, MessageCircle, MapPin } from 'lucide-react';
 
 const Contact = () => {
@@ -13,7 +14,35 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitted(true);
+
+    const serviceID = "service_ztfkvtu";
+    const templateID = "template_eepqtnx";
+    const publicKey = "lGEySRjC5bz4G2JLr";
+
+    const templateParams = {
+      user_name: formData.name,
+      user_email: formData.email,
+      user_phone: formData.phone,
+      message: formData.message
+    };
+
+    emailjs.send(serviceID, templateID, templateParams, publicKey)
+      .then((res) => {
+        console.log("Email sent successfully!", res.status);
+        // 👉 RESET FORM AFTER SUCCESS
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: ''
+        });
+
+        setIsSubmitted(true);
+      })
+      .catch((err) => {
+        console.error("Email send failed:", err);
+        alert("Failed to send message. Try again!");
+      });
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -49,6 +78,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen pt-8 pb-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
         {/* Hero */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Let's Connect</h1>
@@ -58,6 +88,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
           {/* Contact Form */}
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
@@ -134,7 +165,8 @@ const Contact = () => {
 
           {/* Contact Info */}
           <div className="space-y-8">
-            {/* Quick Links */}
+
+            {/* Quick Connect */}
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h2 className="text-2xl font-bold mb-6">Quick Connect</h2>
               <div className="space-y-4">
@@ -221,7 +253,9 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
       </div>
     </div>
@@ -229,3 +263,16 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
+
+
+
+
+
+
+
+
+
+
