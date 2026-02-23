@@ -87,7 +87,7 @@ const ModernHero = () => {
           </Link> */}
 
           <a
-            href="https://youtu.be/crY9TCPI5hk?si=d90ehDa3xz2zzxmm"
+            href="https://www.youtube.com/watch?v=MRNKdDHcSCM&t=166s"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-10 py-5 bg-gradient-to-r from-[#F7B58D] to-[#FFD700] text-[#111111] font-bold rounded-2xl hover:shadow-2xl hover:shadow-[#F7B58D]/25 transition-all duration-500 hover:transform hover:-translate-y-2 overflow-hidden"
@@ -114,7 +114,7 @@ const ModernHero = () => {
         <div className={`transition-all duration-1000 delay-800 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="inline-flex items-center text-gray-500 text-sm">
             <Sparkles className="w-4 h-4 mr-2 animate-pulse" />
-            <span>29+ episodes and counting</span>
+            <span>37+ episodes and counting</span>
           </div>
         </div>
       </div>

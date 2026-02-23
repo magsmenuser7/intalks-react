@@ -127,7 +127,7 @@ const About = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <a
-              href="https://www.linkedin.com/company/magsmen/"
+              href="https://www.linkedin.com/in/itsnsandeep/"
               className="inline-flex items-center px-6 py-3 bg-[#F7B58D] text-[#111111] font-medium rounded-lg hover:bg-[#F7B58D]/90 transition-colors duration-200"
             >
               <Linkedin className="w-5 h-5 mr-2" />
@@ -143,13 +143,13 @@ const About = () => {
           </div>
           
           <div className="flex justify-center space-x-6">
-            <a href="https://www.youtube.com/@Intalkspodcast" className="text-gray-400 hover:text-[#F7B58D] transition-colors duration-200">
+            <a href="https://www.youtube.com/@magsmenindia" className="text-gray-400 hover:text-[#F7B58D] transition-colors duration-200">
               <Youtube className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/intalkspodcast/" className="text-gray-400 hover:text-[#F7B58D] transition-colors duration-200">
+            <a href="https://www.instagram.com/thesandeepn/" className="text-gray-400 hover:text-[#F7B58D] transition-colors duration-200">
               <Instagram className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/company/intalkspodcast/" className="text-gray-400 hover:text-[#F7B58D] transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/itsnsandeep/" className="text-gray-400 hover:text-[#F7B58D] transition-colors duration-200">
               <Linkedin className="w-6 h-6" />
             </a>
           </div>

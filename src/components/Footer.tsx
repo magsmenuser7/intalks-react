@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mic, Youtube, Instagram, Linkedin, Twitter, Facebook, Mail } from 'lucide-react';
+import { Mic, Youtube, Instagram, Linkedin, Twitter, Facebook, X, Mail } from 'lucide-react';
 import logo2 from '../assets/intalks-logo-white.png';
+
 
 const Footer = () => {
   return (
@@ -91,13 +92,13 @@ const Footer = () => {
   </a>
 
   {/* Twitter */}
-  {/* <a
-    href="#"
+  <a
+    href="https://x.com/IntalksPodcast"
     className="w-8 h-8 flex items-center justify-center rounded-full bg-[#1DA1F2] text-white hover:opacity-80 transition"
     aria-label="Twitter"
   >
-    <Twitter className="w-4 h-4" />
-  </a> */}
+    <X className="w-4 h-4" />
+  </a>
 </div>
 
           </div>
