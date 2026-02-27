@@ -46,7 +46,7 @@ const VisionSection = () => {
           </h2>
           
           <p className={`text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            InTalks is evolving into India's first comprehensive marketplace where creators, brands, 
+            Intalks is evolving into India's first comprehensive marketplace where creators, brands, 
             and audiences don't just connect they collaborate, create, and build the future together.
           </p>
         </div>
@@ -119,7 +119,7 @@ const VisionSection = () => {
           </div>
           
           <h3 className="text-3xl md:text-4xl font-bold text-white mb-8">
-            What's Coming to InTalks
+            What's Coming to Intalks
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">

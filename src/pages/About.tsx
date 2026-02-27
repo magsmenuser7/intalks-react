@@ -23,21 +23,21 @@ const About = () => {
           
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Meet Sandeep N</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Strategist. Builder. Host of InTalks.
+            Strategist. Builder. Host of Intalks.
           </p>
         </div>
 
         {/* Bio Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold">The Story Behind InTalks</h2>
+            <h2 className="text-2xl font-bold">The Story Behind Intalks</h2>
             <p className="text-gray-600 leading-relaxed">
-              Sandeep N is the founder of Magsmen and the creator of InTalks and SanStrategies. 
+              Sandeep N is the founder of Magsmen and the creator of Intalks and SanStrategies. 
               Recognized as Consultant of the Year 2023 and among India's Top 100 Marketing Leaders, 
               he has advised startups, scaleups, and Fortune 25 companies.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Through InTalks, he's creating India's first marketplace podcast for creators, brands, 
+              Through Intalks, he's creating India's first marketplace podcast for creators, brands, 
               and audiences. His vision extends beyond traditional podcasting to build a platform 
               where meaningful conversations drive real business outcomes.
             </p>
@@ -51,7 +51,7 @@ const About = () => {
           <div className="space-y-6">
             <h2 className="text-2xl font-bold">Philosophy</h2>
             <blockquote className="text-lg italic text-gray-700 border-l-4 border-[#F7B58D] pl-6">
-              "Every conversation has the potential to spark a movement. InTalks exists to capture 
+              "Every conversation has the potential to spark a movement. Intalks exists to capture 
               those moments and amplify them into opportunities that benefit creators, brands, and 
               audiences alike."
             </blockquote>

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Episodes from './pages/Episodes';
 import Guests from './pages/Guests';
@@ -16,6 +17,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Router basename={import.meta.env.DEV ? "/intalks-react" : "/"}>
+      <ScrollToTop />
       <div className="min-h-screen bg-[#FDF8EE] text-[#111111]">
         <Navbar />
         <Routes>

@@ -40,7 +40,7 @@ const BecomePartner = () => {
           </div>
           <h1 className="text-2xl font-bold mb-4">Partnership Proposal Submitted!</h1>
           <p className="text-gray-600 mb-6">
-            Thanks for your interest in partnering with InTalks. Our partnerships team will craft a tailored integration plan and reach out within 3 business days.
+            Thanks for your interest in partnering with Intalks. Our partnerships team will craft a tailored integration plan and reach out within 3 business days.
           </p>
           <button
             onClick={() => setIsSubmitted(false)}
@@ -96,7 +96,7 @@ const BecomePartner = () => {
                   <Users className="w-6 h-6 text-[#F7B58D] flex-shrink-0 mt-0.5" />
                   <div>
                     <h3 className="font-semibold">Creator Matchmaking</h3>
-                    <p className="text-gray-600">Connect with creators through InTalks network</p>
+                    <p className="text-gray-600">Connect with creators through Intalks network</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -229,7 +229,7 @@ const BecomePartner = () => {
 
         {/* Partnership Form */}
         <div className="max-w-3xl mx-auto bg-white rounded-2xl p-8 shadow-lg">
-          <h2 className="text-2xl font-bold mb-6 text-center">Partner With InTalks</h2>
+          <h2 className="text-2xl font-bold mb-6 text-center">Partner With Intalks</h2>
           <p className="text-gray-600 text-center mb-8">
             Tell us about your brand and objectives, and we'll craft a tailored integration plan.
           </p>
@@ -420,7 +420,7 @@ const BecomePartner = () => {
                 className="mt-1 w-4 h-4 text-[#F7B58D] border-gray-300 rounded focus:ring-[#F7B58D]"
               />
               <label htmlFor="consent" className="text-sm text-gray-600">
-                I agree to InTalks contacting me about partnership opportunities and consent to my information being used for proposal development. *
+                I agree to Intalks contacting me about partnership opportunities and consent to my information being used for proposal development. *
               </label>
             </div>
 

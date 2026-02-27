@@ -146,7 +146,7 @@ const Guests = () => {
         <div className="mt-16 bg-gradient-to-r from-[#F7B58D]/10 via-white to-[#F7B58D]/10 rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Want to Join This Community?</h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            If you have insights that can inspire creators and brands, we'd love to have you on InTalks.
+            If you have insights that can inspire creators and brands, we'd love to have you on Intalks.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/become-guest" className="px-6 py-3 bg-[#F7B58D] text-[#111111] font-medium rounded-lg hover:bg-[#F7B58D]/90 transition-colors duration-200">

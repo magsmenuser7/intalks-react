@@ -112,7 +112,7 @@ const Home = () => {
               <span className="text-[#F7B58D] font-medium">More Than Just Conversations</span>
             </div>
             <h2 className="text-4xl md:text-6xl font-bold mb-8 text-white">
-              InTalks is Where
+              Intalks is Where
               <br />
               <span className="bg-gradient-to-r from-[#F7B58D] to-[#FFD700] bg-clip-text text-transparent">
                 Ideas Come Alive

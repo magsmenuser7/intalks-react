@@ -56,7 +56,7 @@ const BecomeHost = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Host an InTalks Vertical</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Host an Intalks Vertical</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Your niche. Our platform. A shared audience.
           </p>
@@ -67,7 +67,7 @@ const BecomeHost = () => {
           <div className="space-y-8">
             {/* Why Host on InTalks */}
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h2 className="text-2xl font-bold mb-6">Why Host on InTalks</h2>
+              <h2 className="text-2xl font-bold mb-6">Why Host on Intalks</h2>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Users className="w-6 h-6 text-[#F7B58D] flex-shrink-0 mt-0.5" />
@@ -249,7 +249,7 @@ const BecomeHost = () => {
                 name="whyYou"
                 required
                 rows={4}
-                placeholder="Tell us about your expertise, audience, and what unique perspective you'd bring to InTalks..."
+                placeholder="Tell us about your expertise, audience, and what unique perspective you'd bring to Intalks..."
                 value={formData.whyYou}
                 onChange={handleInputChange}
                 className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:border-[#F7B58D] transition-colors duration-200"

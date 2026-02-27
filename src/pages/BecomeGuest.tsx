@@ -59,7 +59,7 @@ const BecomeGuest = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Your Story, Amplified</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            If your journey inspires creators and brands, InTalks is your stage.
+            If your journey inspires creators and brands, Intalks is your stage.
           </p>
         </div>
 
@@ -296,7 +296,7 @@ const BecomeGuest = () => {
                   className="mt-1 w-4 h-4 text-[#F7B58D] border-gray-300 rounded focus:ring-[#F7B58D]"
                 />
                 <label htmlFor="consent" className="text-sm text-gray-600">
-                  I consent to being recorded and clipped for social distribution across InTalks channels. *
+                  I consent to being recorded and clipped for social distribution across Intalks channels. *
                 </label>
               </div>
 

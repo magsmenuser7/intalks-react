@@ -17,7 +17,7 @@ const Press = () => {
       id: 1,
       outlet: "Economic Times",
       logo: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
-      headline: "InTalks: Redefining Creator-Brand Partnerships in India",
+      headline: "Intalks: Redefining Creator-Brand Partnerships in India",
       date: "December 2024",
       link: "#",
       type: "feature"
@@ -26,7 +26,7 @@ const Press = () => {
       id: 2,
       outlet: "YourStory",
       logo: "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg",
-      headline: "How InTalks is Building India's First Marketplace Podcast",
+      headline: "How Intalks is Building India's First Marketplace Podcast",
       date: "November 2024",
       link: "#",
       type: "interview"
@@ -35,7 +35,7 @@ const Press = () => {
       id: 3,
       outlet: "Entrepreneur India",
       logo: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg",
-      headline: "The Strategic Mind Behind InTalks: Sandeep N's Journey",
+      headline: "The Strategic Mind Behind Intalks: Sandeep N's Journey",
       date: "October 2024",
       link: "#",
       type: "article"
@@ -53,7 +53,7 @@ const Press = () => {
       id: 5,
       outlet: "Marketing Mind",
       logo: "https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg",
-      headline: "Top 100 Marketing Leaders: The InTalks Revolution",
+      headline: "Top 100 Marketing Leaders: The Intalks Revolution",
       date: "August 2024",
       link: "#",
       type: "feature"
@@ -101,7 +101,7 @@ const Press = () => {
         <div className="bg-gradient-to-r from-[#F7B58D]/10 via-white to-[#F7B58D]/10 rounded-2xl p-8 mb-12 text-center">
           <h2 className="text-2xl font-bold mb-4">Media Kit</h2>
           <p className="text-gray-600 mb-6">
-            Everything you need to feature InTalks: brand guidelines, high-res photos, 
+            Everything you need to feature Intalks: brand guidelines, high-res photos, 
             audience data, and story angles.
           </p>
           <button className="inline-flex items-center px-6 py-3 bg-[#F7B58D] text-[#111111] font-medium rounded-lg hover:bg-[#F7B58D]/90 transition-colors duration-200">

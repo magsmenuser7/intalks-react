@@ -60,7 +60,7 @@ const Contact = () => {
           <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
             <CheckCircle className="w-8 h-8 text-green-600" />
           </div>
-          <h1 className="text-2xl font-bold mb-4">All set. Welcome to InTalks.</h1>
+          <h1 className="text-2xl font-bold mb-4">All set. Welcome to Intalks.</h1>
           <p className="text-gray-600 mb-6">
             Thanks for reaching out. We'll get back to you within 24 hours.
           </p>
@@ -219,7 +219,7 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-[#F7B58D]" />
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">InTalks Studio</h3>
+                  <h3 className="font-semibold mb-2">Intalks Studio</h3>
                   <p className="text-gray-600 mb-4">
                     Brodipet 6th line beside arundalpet police station,<br />
                     Guntur, Andhra Pradesh-522002

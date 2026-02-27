@@ -139,7 +139,7 @@ const Footer = () => {
         </div>
 
         {/* Newsletter */}
-        <div className="border-t border-gray-800 mt-8 pt-8">
+        {/* <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div>
               <h3 className="font-semibold text-lg mb-2">Ideas that travel fast</h3>
@@ -156,12 +156,12 @@ const Footer = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-8 pt-6 flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0">
           <p className="text-gray-400 text-sm">
-            © 2024 InTalks. All rights reserved.
+            © 2024 Intalks. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-400">
             <a href="#" className="hover:text-[#F7B58D] transition-colors duration-200">Privacy Policy</a>
