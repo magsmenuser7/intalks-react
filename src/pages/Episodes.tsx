@@ -62,7 +62,7 @@ function extractVideoId(url: string) {
 async function fetchYouTubeViews(videoId: string) {
   if (!videoId) return "0";
   if (!VITE_API_KEY) {
-    console.error("❌ Missing API KEY! Check .env");
+    console.error("❌ Missing API KEY! Check");
     return "0";
   }
 
@@ -276,14 +276,3 @@ const Episodes = () => {
 };
 
 export default Episodes;
-
-
-
-
-
-
-
-
-
-
-

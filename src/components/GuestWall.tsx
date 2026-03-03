@@ -16,6 +16,29 @@ import guest12 from "../assets/intalks-podcast-12.jpg";
 import guest13 from "../assets/intalks-podcast-13.jpg";
 import guest14 from "../assets/intalks-podcast-14.jpg";
 import guest15 from "../assets/intalks-podcast-15.jpg";
+import guest16 from "../assets/intalks-podcast-16.jpg";
+import guest17 from "../assets/intalks-podcast-17.jpg";
+import guest18 from "../assets/intalks-podcast-18.jpg";
+import guest19 from "../assets/intalks-podcast-19.jpg";
+import guest20 from "../assets/intalks-podcast-20.jpg";
+import guest21 from "../assets/intalks-podcast-21.jpg";
+import guest22 from "../assets/intalks-podcast-22.jpg";
+import guest23 from "../assets/intalks-podcast-23-latest.jpg";
+import guest24 from "../assets/intalks-podcast-24.jpg";
+import guest25 from "../assets/intalks-podcast-25.jpg";
+import guest26 from "../assets/intalks-podcast-26.jpg";
+import guest27 from "../assets/intalks-podcast-27-latest.jpg";
+import guest28 from "../assets/intalks-podcast-28.jpg";
+import guest29 from "../assets/intalks-podcast-29.jpg";
+import guest30 from "../assets/intalks-podcast-30.jpg";
+import guest31 from "../assets/intalks-podcast-31.jpg";
+import guest32 from "../assets/intalks-podcast-32.jpg";
+import guest33 from "../assets/intalks-podcast-33.jpg";
+import guest34 from "../assets/intalks-podcast-34.jpg";
+import guest35 from "../assets/intalks-podcast-35.jpg";
+import guest36 from "../assets/Ep-36.jpg";
+import guest37 from "../assets/Ep-37.jpg";
+import guest38 from "../assets/episode-38.jpg";
 
 interface Guest {
   id: number;
@@ -121,18 +144,180 @@ const GuestWall = () => {
     {
       id: 14,
       name: "K.V. Vijaya Kumar",
-      role: "Retd I.A.S",
+      role: "Retd Judge",
       image: guest14,
-      company: "Dermatologist"
+      company: "Judiciary"
     },
     {
       id: 15,
-      name: "K.V. Vijaya Kumar",
-      role: "Retd I.A.S",
+      name: "Rajya Lakshmi ",
+      role: "former President of Rotary Club Guntur",
       image: guest15,
-      company: "Dermatologist"
+      company: "Service to Humanity"
+    },
+    {
+      id: 16,
+      name: "Dora Raju",
+      role: "founder of Olive Mithai Shop",
+      image: guest16,
+      company: "Entrepreneurship & Business Success"
+    },
+    {
+      id: 17,
+      name: "Dr. Suhas B Shetty",
+      role: "Doctor",
+      image: guest17,
+      company: "Business & Food Industry"
+    },
+    {
+      id: 18,
+      name: "Rama Sita",
+      role: "international table tennis gold medalist",
+      image: guest18,
+      company: "Sports Excellence"
+    },
+    {
+      id: 19,
+      name: " CA Mahamood Shaik ",
+      role: "Chartered Accountant",
+      image: guest19,
+      company: "Business & Finance"
+    },
+    {
+      id: 20,
+      name: "Raj Rachakonda",
+      role: "Director",
+      image: guest20,
+      company: "Film & Entertainment"
+    },
+    {
+      id: 21,
+      name: "Uma Maheshwar",
+      role: "GV Mall Chairman",
+      image: guest21,
+      company: "GV Mall Chairman"
+    },{
+      id: 22,
+      name: " Dr. V. Anuradha",
+      role: "Doctor",
+      image: guest22,
+      company: "Parenting & Family"
+    },
+    {
+      id: 23,
+      name: " Dr. Vivek",
+      role: "Doctor",
+      image: guest23,
+      company: "Health & Cardiology"
+    },
+    {
+      id: 24,
+      name: "Kiriti Damaraju ",
+      role: "Actor",
+      image: guest24,
+      company: "Film & Career Stories"
+    },
+    {
+      id: 25,
+      name: "Annapurnamma",
+      role: "Actress",
+      image: guest25,
+      company: "Film & Entertainment"
+    },{
+      id: 26,
+      name: "Ravi Vadlamani",
+      role: "CA",
+      image: guest26,
+      company: "Social Impact & Leadership"
+    },
+    {
+      id: 27,
+      name: "Sri Santh Sadananda Giri",
+      role: "piritual teacher",
+      image: guest27,
+      company: "Spirituality & Life Lessons"
+    },
+    {
+      id: 28,
+      name: "Ravi Ravada",
+      role: "Retd Major General",
+      image: guest28,
+      company: "Patriotism & National Security"
+    },
+    {
+      id: 29,
+      name: " M Gopala Krishna",
+      role: "Retd IAS",
+      image: guest29,
+      company: "Governance & Public Service"
+    },
+    {
+      id: 30,
+      name: "VSR Murthy",
+      role: "Spiritual Scientist",
+      image: guest30,
+      company: "Spirituality & Philosophy"
+    },
+    {
+      id: 31,
+      name: "JA Chowdary",
+      role: " Founder of ISF & Junicorn",
+      image: guest31,
+      company: "Technology & Leadership"
+    },
+    {
+      id: 32,
+      name: "Ghazal Srinivas",
+      role: "Ghazal Singer",
+      image: guest32,
+      company: "Music & Peace"
+    },
+    {
+      id: 33,
+      name: "Dr. Chandana G",
+      role: "Neurophysician",
+      image: guest33,
+      company: "Health,Wellness & Neuroscience / Brain Health"
+    },
+    {
+      id: 34,
+      name: "Dr. Vasantha",
+      role: "Gynecologist",
+      image: guest34,
+      company: "Parenting | Men’s Health | Pregnancy Awareness"
+    },
+    {
+      id: 35,
+      name: "Chandu Sambasiva Rao",
+      role: "RERA",
+      image: guest35,
+      company: " Real Estate Regulatory Authority"
+    },
+    {
+      id: 36,
+      name: "Vijay Polaki",
+      role: "Dance Choreographer",
+      image: guest36,
+      company: "Cinema Industry"
+    },
+    {
+      id: 37,
+      name: "K.Kalyani Ravindranath",
+      role: "Homemaker",
+      image: guest37,
+      company: "Wisdom"
+    },
+    {
+      id: 38,
+      name: "Journalist Sai",
+      role: "Journalist",
+      image: guest38,
+      company: "Journalism & Media"
     }
   ];
+
+  const reversedGuests = [...guests].reverse();
+const scrollingGuests = [...reversedGuests, ...reversedGuests];
 
   return (
     <section className="py-32 bg-gradient-to-br from-[#FDF8EE] via-white to-[#F7B58D]/5 overflow-hidden relative">
@@ -154,7 +339,7 @@ const GuestWall = () => {
           <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#FDF8EE] to-transparent z-10"></div>
           
           <div className="flex space-x-8 animate-scroll">
-            {[...guests, ...guests].map((guest, index) => (
+            {[...scrollingGuests].map((guest, index) => (
               <div
                 key={`${guest.id}-${index}`}
                 className="group flex-shrink-0 relative transform transition-all duration-500"
@@ -183,10 +368,10 @@ const GuestWall = () => {
       <style>{`
         @keyframes scroll {
           0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
+          100% { transform: translateX(-600%); }
         }
         .animate-scroll {
-          animation: scroll 40s linear infinite;
+          animation: scroll 140s linear infinite;
         }
         .animate-scroll:hover {
           animation-play-state: paused;

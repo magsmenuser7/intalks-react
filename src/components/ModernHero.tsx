@@ -75,19 +75,10 @@ const ModernHero = () => {
         
         {/* CTA Buttons */}
         <div className={`flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 transition-all duration-1000 delay-600 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          {/* <Link
-            to="/episodes"
-            className="group relative px-10 py-5 bg-gradient-to-r from-[#F7B58D] to-[#FFD700] text-[#111111] font-bold rounded-2xl hover:shadow-2xl hover:shadow-[#F7B58D]/25 transition-all duration-500 hover:transform hover:-translate-y-2 overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-r from-[#FFD700] to-[#F7B58D] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            <span className="relative z-10 flex items-center">
-              <Play className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" />
-              Watch Latest Episode
-            </span>
-          </Link> */}
+          
 
           <a
-            href="https://www.youtube.com/watch?v=MRNKdDHcSCM&t=166s"
+            href="https://www.youtube.com/watch?v=gb0OCqQGgzM&t=6s"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-10 py-5 bg-gradient-to-r from-[#F7B58D] to-[#FFD700] text-[#111111] font-bold rounded-2xl hover:shadow-2xl hover:shadow-[#F7B58D]/25 transition-all duration-500 hover:transform hover:-translate-y-2 overflow-hidden"
