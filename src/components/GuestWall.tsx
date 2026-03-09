@@ -335,8 +335,8 @@ const scrollingGuests = [...reversedGuests, ...reversedGuests];
         
         <div className="relative overflow-hidden">
           {/* Gradient Overlays */}
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#FDF8EE] to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#FDF8EE] to-transparent z-10"></div>
+          {/* <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#FDF8EE] to-transparent z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#FDF8EE] to-transparent z-10"></div> */}
           
           <div className="flex space-x-8 animate-scroll">
             {[...scrollingGuests].map((guest, index) => (
@@ -344,7 +344,7 @@ const scrollingGuests = [...reversedGuests, ...reversedGuests];
                 key={`${guest.id}-${index}`}
                 className="group flex-shrink-0 relative transform transition-all duration-500"
               >
-                <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#F7B58D]/30 group-hover:border-[#F7B58D] transition-all duration-500 group-hover:scale-110 shadow-lg group-hover:shadow-2xl group-hover:shadow-[#F7B58D]/25">
+                <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#F7B58D]/30 group-hover:border-[#F7B58D] transition-all duration-500 group-hover:scale-110  group-hover:shadow-2xl group-hover:shadow-[#F7B58D]/25">
                   <img
                     src={guest.image}
                     alt={guest.name}
@@ -376,7 +376,8 @@ const scrollingGuests = [...reversedGuests, ...reversedGuests];
         .animate-scroll:hover {
           animation-play-state: paused;
         }
-      `}</style>
+      `}
+      </style>
     </section>
   );
 };
