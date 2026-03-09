@@ -260,6 +260,7 @@ const Home = () => {
             >
               Partner With Us
             </Link>
+            <p> </p>
           </div>
         </div>
       </section>
