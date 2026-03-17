@@ -39,6 +39,8 @@ import guest35 from "../assets/intalks-podcast-35.jpg";
 import guest36 from "../assets/Ep-36.jpg";
 import guest37 from "../assets/Ep-37.jpg";
 import guest38 from "../assets/episode-38.jpg";
+import guest39 from "../assets/thumbnail39.jpeg";
+import guest40 from "../assets/episode-40.jpeg";
 
 interface Guest {
   id: number;
@@ -313,6 +315,20 @@ const GuestWall = () => {
       role: "Journalist",
       image: guest38,
       company: "Journalism & Media"
+    },
+    {
+      id: 39,
+      name: "Tejaswi Podapati",
+      role: "Politician",
+      image: guest39,
+      company: "Politics"
+    },
+    {
+      id: 40,
+      name: "Dr. Vivek",
+      role: "Politician",
+      image: guest40,
+      company: "Health & Cardiology"
     }
   ];
 
