@@ -12,7 +12,45 @@ import VisionSection from '../components/VisionSection';
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [stats, setStats] = useState<any>(null);
+  // const [stats, setStats] = useState<any>(null);
+
+
+  const [stats, setStats] = useState({
+  youtubestats: 0,
+  instagramstats: 0,
+  communitygrowthstats: 0
+});
+
+useEffect(() => {
+  debugger;
+  const fetchStats = async () => {
+    try {
+
+      const response = await fetch("https://api.mibbs.ai/api/youtube-stats/")
+      const data = await response.json()
+
+      const views = data?.youtube_views || 0
+      const millionViews = views / 1000000
+
+      setStats({
+        youtubestats: Number(millionViews.toFixed(2)),
+        instagramstats: 79.41,
+        communitygrowthstats: 1.5
+      })
+
+    } catch (error) {
+      console.error(error)
+    }
+  }
+
+  fetchStats()
+
+  const interval = setInterval(fetchStats, 300000)
+
+  return () => clearInterval(interval)
+
+}, [])
+
 
   useEffect(() => {
     // fetch("http://127.0.0.1:8000/api/intalks-stats/")
