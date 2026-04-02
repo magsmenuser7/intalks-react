@@ -22,7 +22,7 @@ const Home = () => {
 });
 
 useEffect(() => {
-  debugger;
+ 
   const fetchStats = async () => {
     try {
 
@@ -50,7 +50,6 @@ useEffect(() => {
   return () => clearInterval(interval)
 
 }, [])
-
 
   useEffect(() => {
     // fetch("http://127.0.0.1:8000/api/intalks-stats/")
