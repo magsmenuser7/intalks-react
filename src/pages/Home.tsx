@@ -34,8 +34,8 @@ useEffect(() => {
 
       setStats({
         youtubestats: Number(millionViews.toFixed(2)),
-        instagramstats: 79.41,
-        communitygrowthstats: 1.5
+        instagramstats: 0,
+        communitygrowthstats: 0,
       })
 
     } catch (error) {
