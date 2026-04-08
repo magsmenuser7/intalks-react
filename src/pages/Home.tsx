@@ -22,34 +22,87 @@ const Home = () => {
 });
 
 useEffect(() => {
- 
+
   const fetchStats = async () => {
+
     try {
 
-      const response = await fetch("https://api.mibbs.ai/api/youtube-stats/")
-      const data = await response.json()
+      // 1️⃣ Fetch YouTube stats
+      const ytResponse = await fetch("https://api.mibbs.ai/api/youtube-stats/");
+      const ytData = await ytResponse.json();
 
-      const views = data?.youtube_views || 0
-      const millionViews = views / 1000000
+      const views = ytData?.youtube_views || 0;
+      const millionViews = views / 1000000;
+
+      // 2️⃣ Fetch admin stats
+      const adminResponse = await fetch("https://api.mibbs.ai/api/intalks-stats/");
+      const adminData = await adminResponse.json();
+
+      const instagram = adminData?.data?.instagramstats || 0;
+      const community = adminData?.data?.communitygrowthstats || 0;
 
       setStats({
         youtubestats: Number(millionViews.toFixed(2)),
-        instagramstats: 79.41,
-        communitygrowthstats: 1.5
-      })
+        instagramstats: instagram,
+        communitygrowthstats: community
+      });
 
     } catch (error) {
-      console.error(error)
+      console.error("Stats fetch error:", error);
     }
-  }
 
-  fetchStats()
+  };
 
-  const interval = setInterval(fetchStats, 300000)
+  fetchStats();
 
-  return () => clearInterval(interval)
+  // auto refresh every 5 minutes
+  const interval = setInterval(fetchStats, 300000);
 
-}, [])
+  return () => clearInterval(interval);
+
+}, []);
+
+
+
+
+//   const [stats, setStats] = useState({
+//   youtubestats: 0,
+//   instagramstats: 0,
+//   communitygrowthstats: 0
+// });
+
+// useEffect(() => {
+ 
+//   const fetchStats = async () => {
+//     try {
+
+//       const response = await fetch("https://api.mibbs.ai/api/youtube-stats/")
+//       const data = await response.json()
+
+//       const views = data?.youtube_views || 0
+//       const millionViews = views / 1000000
+
+//       setStats({
+//         youtubestats: Number(millionViews.toFixed(2)),
+//         instagramstats: 79.41,
+//         communitygrowthstats: 1.5
+//       })
+
+//     } catch (error) {
+//       console.error(error)
+//     }
+//   }
+
+//   fetchStats()
+
+//   const interval = setInterval(fetchStats, 300000)
+
+//   return () => clearInterval(interval)
+
+// }, [])
+
+
+
 
   useEffect(() => {
     // fetch("http://127.0.0.1:8000/api/intalks-stats/")
