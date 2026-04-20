@@ -41,6 +41,8 @@ import guest37 from "../assets/Ep-37.jpg";
 import guest38 from "../assets/episode-38.jpg";
 import guest39 from "../assets/thumbnail39.jpeg";
 import guest40 from "../assets/episode-40.jpeg";
+import guest41 from "../assets/episode41.jpeg";
+import guest42 from "../assets/episode42.jpeg";
 
 interface Guest {
   id: number;
@@ -325,10 +327,24 @@ const GuestWall = () => {
     },
     {
       id: 40,
-      name: "Dr. Vivek",
-      role: "Politician",
+      name: "Prof.P.Srinivas Subbarao",
+      role: "Professor",
       image: guest40,
-      company: "Health & Cardiology"
+      company: "Geopolitics & International Relations"
+    },
+    {
+    id: 41,
+      name: "Raja Raveendar",
+      role: "Actor",
+      image: guest41,
+      company: "Film & Entertainment"
+    },
+     {
+      id: 42,
+      name: "Manisarma",
+      role: "Astrologist",
+      image: guest42,
+      company: "Astrology & Spirituality"
     }
   ];
 
