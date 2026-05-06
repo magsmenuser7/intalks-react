@@ -17,9 +17,38 @@ const BecomeGuest = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitted(true);
-  };
+  e.preventDefault();
+
+  const subject = `New Guest Application from ${formData.name}`;
+
+  const body = `
+Full Name: ${formData.name}
+
+Email: ${formData.email}
+
+Phone: ${formData.phone}
+
+Role: ${formData.role}
+
+Company/Channel: ${formData.company}
+
+Topic Idea:
+${formData.topicIdea}
+
+Relevant Links:
+${formData.links}
+
+Availability: ${formData.availability}
+
+Consent Given: ${formData.consent ? "Yes" : "No"}
+  `;
+
+  window.location.href = `mailto:explore@intalks.in?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
+
+  setIsSubmitted(true);
+};
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target;

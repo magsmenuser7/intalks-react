@@ -16,9 +16,40 @@ const BecomeHost = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitted(true);
-  };
+  e.preventDefault();
+
+  const subject = `New Host Application from ${formData.name}`;
+
+  const body = `
+Full Name: ${formData.name}
+
+Email: ${formData.email}
+
+Social Handles:
+${formData.handles}
+
+Niche/Vertical:
+${formData.niche}
+
+Sample Video:
+${formData.sampleVideo}
+
+Why You:
+${formData.whyYou}
+
+Availability:
+${formData.availability}
+
+NDA Accepted:
+${formData.nda ? "Yes" : "No"}
+  `;
+
+  window.location.href = `mailto:explore@intalks.in?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
+
+  setIsSubmitted(true);
+};
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target;
