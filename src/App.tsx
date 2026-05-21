@@ -13,6 +13,8 @@ import BecomePartner from './pages/BecomePartner';
 import Contact from './pages/Contact';
 import Press from './pages/Press';
 import NotFound from './pages/NotFound';
+import PasteALink from './pages/PasteALink';
+
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
           <Route path="/become-partner" element={<BecomePartner />} />
           <Route path="/press" element={<Press />} />
           <Route path="/contact" element={<Contact />} />
+           {/* <Route path="/paste-a-link" element={<PasteALink />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

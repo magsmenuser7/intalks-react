@@ -43,6 +43,8 @@ import guest39 from "../assets/thumbnail39.jpeg";
 import guest40 from "../assets/episode-40.jpeg";
 import guest41 from "../assets/episode41.jpeg";
 import guest42 from "../assets/episode42.jpeg";
+import guest43 from "../assets/episode43.jpeg"
+import guest44 from "../assets/episode44.jpeg"
 
 interface Guest {
   id: number;
@@ -345,6 +347,20 @@ const GuestWall = () => {
       role: "Astrologist",
       image: guest42,
       company: "Astrology & Spirituality"
+    },
+    {
+     id: 43,
+      name: "Galla Madhavi",
+      role: "MLA",
+      image: guest43,
+      company: "Politics"
+    },
+    {
+     id: 44,
+      name: "Rajeev Kanakala",
+      role: "Actor",
+      image: guest44,
+      company: "Film & Entertainment"
     }
   ];
 

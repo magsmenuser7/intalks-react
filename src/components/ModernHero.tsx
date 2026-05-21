@@ -78,7 +78,7 @@ const ModernHero = () => {
           
 
           <a
-            href="https://www.youtube.com/watch?v=W_Xp5GXFf6s&t=3933s"
+            href="https://www.youtube.com/watch?v=qBsp1Z44XXw&t=177s"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-10 py-5 bg-gradient-to-r from-[#F7B58D] to-[#FFD700] text-[#111111] font-bold rounded-2xl hover:shadow-2xl hover:shadow-[#F7B58D]/25 transition-all duration-500 hover:transform hover:-translate-y-2 overflow-hidden"
