@@ -39,12 +39,13 @@ import guest35 from "../assets/intalks-podcast-35.jpg";
 import guest36 from "../assets/Ep-36.jpg";
 import guest37 from "../assets/Ep-37.jpg";
 import guest38 from "../assets/episode-38.jpg";
-import guest39 from "../assets/thumbnail39.jpeg";
+import guest39 from "../assets/ep-39.jpeg";
 import guest40 from "../assets/episode-40.jpeg";
 import guest41 from "../assets/episode41.jpeg";
 import guest42 from "../assets/episode42.jpeg";
 import guest43 from "../assets/episode43.jpeg"
 import guest44 from "../assets/episode44.jpeg"
+import guest45 from "../assets/episode45.jpeg"
 
 interface Guest {
   id: number;
@@ -360,6 +361,13 @@ const GuestWall = () => {
       name: "Rajeev Kanakala",
       role: "Actor",
       image: guest44,
+      company: "Film & Entertainment"
+    },
+     {
+     id: 45,
+      name: "Tanikella Bharani",
+      role: "Actor",
+      image: guest45,
       company: "Film & Entertainment"
     }
   ];

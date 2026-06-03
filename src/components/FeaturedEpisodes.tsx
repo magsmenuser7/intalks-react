@@ -58,7 +58,7 @@ const FeaturedEpisodes = () => {
   {episodes.map((episode) => (
     <div
       key={episode.id}
-      className="group block transform transition-all duration-500 hover:-translate-y-2"
+      className="group block transform transition-all duration-500 hover:-translate-y-2 bg-white/70 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl"
     >
       {/* Thumbnail + Play button → YouTube */}
       <a
@@ -92,7 +92,7 @@ const FeaturedEpisodes = () => {
       {/* Title + Description → Internal navigation */}
       <Link
         to={`/episodes`}
-        className="block space-y-4 px-2"
+        className="block space-y-4 px-3 py-3"
       >
         <h3 className="text-2xl font-bold group-hover:text-[#F7B58D] transition-colors duration-300 line-clamp-2 leading-tight">
           {episode.title}
