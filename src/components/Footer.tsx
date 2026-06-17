@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mic, Youtube, Instagram, Linkedin, Twitter, Facebook, X, Mail } from 'lucide-react';
+import { Mic, Youtube, Instagram, Linkedin, Twitter, Facebook, X, Apple, Mail } from 'lucide-react';
 import logo2 from '../assets/intalks-logo-white.png';
 import  footerlogo from '../assets/footer-logo.png'
 
@@ -100,6 +100,14 @@ const Footer = () => {
   >
     <X className="w-4 h-4" />
   </a>
+
+  <a
+  href="https://podcasts.apple.com/us/podcast/intalks-with-sandeep/id1896905061"
+  className="w-8 h-8 flex items-center justify-center rounded-full bg-[#555555] text-white hover:opacity-80 transition"
+  aria-label="Apple"
+>
+  <Apple className="w-4 h-4" />
+</a>
 </div>
 
           </div>
