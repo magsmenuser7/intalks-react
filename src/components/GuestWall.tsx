@@ -46,6 +46,7 @@ import guest42 from "../assets/episode42.jpeg";
 import guest43 from "../assets/episode43.jpeg"
 import guest44 from "../assets/episode44.jpeg"
 import guest45 from "../assets/episode45.jpeg"
+import guest46 from "../assets/episode46.jpeg"
 
 interface Guest {
   id: number;
@@ -369,11 +370,18 @@ const GuestWall = () => {
       role: "Actor",
       image: guest45,
       company: "Film & Entertainment"
+    },
+    {
+     id: 46,
+      name: "Hyper Aadi ",
+      role: "Actor",
+      image: guest46,
+      company: "Film & Entertainment"
     }
   ];
 
   const reversedGuests = [...guests].reverse();
-const scrollingGuests = [...reversedGuests, ...reversedGuests];
+  const scrollingGuests = [...reversedGuests, ...reversedGuests];
 
   return (
     <section className="py-32 bg-gradient-to-br from-[#FDF8EE] via-white to-[#F7B58D]/5 overflow-hidden relative">

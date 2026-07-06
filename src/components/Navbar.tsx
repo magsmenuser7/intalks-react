@@ -10,7 +10,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const navLinks = [
-     { name: 'About', path: '/about' },
+    { name: 'About', path: '/about' },
     { name: 'Episodes', path: '/episodes' },
     { name: 'Guests', path: '/guests' },
     { name: 'Become a Guest', path: '/become-guest' },
