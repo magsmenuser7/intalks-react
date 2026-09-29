@@ -28,14 +28,14 @@ useEffect(() => {
     try {
 
       // 1️⃣ Fetch YouTube stats
-      const ytResponse = await fetch("https://api.mibbs.ai/api/youtube-stats/");
+      const ytResponse = await fetch("https://api.grofesion.com/api/youtube-stats/");
       const ytData = await ytResponse.json();
 
       const views = ytData?.youtube_views || 0;
       const millionViews = views / 1000000;
 
       // 2️⃣ Fetch admin stats
-      const adminResponse = await fetch("https://api.mibbs.ai/api/intalks-stats/");
+      const adminResponse = await fetch("https://api.grofesion.com/api/intalks-stats/");
       const adminData = await adminResponse.json();
 
       const instagram = adminData?.data?.instagramstats || 0;
@@ -106,7 +106,7 @@ useEffect(() => {
 
   useEffect(() => {
     // fetch("http://127.0.0.1:8000/api/intalks-stats/")
-    fetch("https://api.mibbs.ai/api/intalks-stats/")
+    fetch("https://api.grofesion.com/api/intalks-stats/")
       .then(res => res.json())
       .then(res => {
         if (res.success) {

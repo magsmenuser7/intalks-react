@@ -22,7 +22,7 @@ const FeaturedEpisodes = () => {
 
   useEffect(() => {
     // fetch("http://127.0.0.1:8000/api/home-episodes/")
-    fetch("https://api.mibbs.ai/api/home-episodes/")
+    fetch("https://api.grofesion.com/api/home-episodes/")
       .then(res => res.json())
       .then(res => {
         if (res.success) {

@@ -17,7 +17,8 @@ const Guests = () => {
 
   useEffect(() => {
     // fetch("http://127.0.0.1:8000/api/guests/")
-    fetch("https://api.mibbs.ai/api/guests/")
+    // fetch("https://api.mibbs.ai/api/guests/")
+    fetch("https://api.grofesion.com/api/guests/")
       .then(res => res.json())
       .then(res => {
         if (res.success && Array.isArray(res.data)) {
