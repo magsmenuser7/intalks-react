@@ -47,6 +47,9 @@ import guest43 from "../assets/episode43.jpeg"
 import guest44 from "../assets/episode44.jpeg"
 import guest45 from "../assets/episode45.jpeg"
 import guest46 from "../assets/episode46.jpeg"
+import guest47 from "../assets/episode47.jpeg"
+import guest48 from "../assets/episode48.jpeg"
+import guest49 from "../assets/episode49.jpeg"
 
 interface Guest {
   id: number;
@@ -377,7 +380,29 @@ const GuestWall = () => {
       role: "Actor",
       image: guest46,
       company: "Film & Entertainment"
-    }
+    },
+    {
+     id: 47,
+      name: "Dr.Vasuprada Kartic",
+      role: "Anthroposophic Psychotherapy",
+      image: guest47,
+      company: "Psychotherapist"
+    },
+    {
+     id: 48,
+      name: "Farooq Shubli",
+      role: "Religion, Society & Politics",
+      image: guest48,
+      company: "Religion, Society & Politics"
+    },
+    {
+     id: 49,
+      name: "Pavitra Lokesh",
+      role: "Relationships, Family & Spirituality",
+      image: guest49,
+      company: "Relationships, Family & Spirituality"
+    },
+
   ];
 
   const reversedGuests = [...guests].reverse();
