@@ -47,9 +47,9 @@ import guest43 from "../assets/episode43.jpeg"
 import guest44 from "../assets/episode44.jpeg"
 import guest45 from "../assets/episode45.jpeg"
 import guest46 from "../assets/episode46.jpeg"
-import guest47 from "../assets/episode47.jpeg"
-import guest48 from "../assets/episode48.jpeg"
-import guest49 from "../assets/episode49.jpeg"
+import guest47 from "../assets/episode47.jpg"
+import guest48 from "../assets/episode48.jpg"
+import guest49 from "../assets/episode49.jpg"
 
 interface Guest {
   id: number;
