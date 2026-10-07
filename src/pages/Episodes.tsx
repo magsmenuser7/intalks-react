@@ -57,9 +57,9 @@ const Episodes = () => {
 
   // --- Fetch Data From Django + YouTube Views ---
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/episodes/")
+    // fetch("http://127.0.0.1:8000/api/episodes/")
     // fetch("https://api.mibbs.ai/api/episodes/")
-    // fetch("https://api.grofesion.com/api/episodes/")
+    fetch("https://api.grofesion.com/api/episodes/")
       .then(res => res.json())
       .then(async res => {
         if (res.success && Array.isArray(res.data)) {
