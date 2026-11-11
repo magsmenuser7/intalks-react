@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Mic } from 'lucide-react';
-import logo from '../assets/intalks-logo.png';
+import { Menu, X } from 'lucide-react';
 import newlogo from '../assets/intalks-new-logo.png';
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const isHome = location.pathname === '/';
 
   const navLinks = [
     { name: 'About', path: '/about' },
@@ -22,7 +22,13 @@ const Navbar = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#FDF8EE]/95 backdrop-blur-sm border-b border-[#F7B58D]/20">
+    <nav
+      className={`sticky top-0 z-50 border-b-0 bg-[#FDF8EE]/95 backdrop-blur-sm md:border-b md:border-[#F7B58D]/20 ${
+        isHome
+          ? 'md:absolute md:inset-x-0 md:top-0 md:border-transparent md:bg-transparent md:backdrop-blur-0'
+          : 'md:static'
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
@@ -47,7 +53,7 @@ const Navbar = () => {
                 className={`text-sm font-medium transition-colors duration-200 hover:text-[#F7B58D] ${
                   isActive(link.path) 
                     ? 'text-[#F7B58D] border-b-2 border-[#F7B58D] pb-1' 
-                    : 'text-[#111111]'
+                    : isHome ? 'text-[#F7B58D] drop-shadow-md' : 'text-[#111111]'
                 }`}
               >
                 {link.name}
@@ -59,7 +65,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-[#111111] hover:text-[#F7B58D] transition-colors duration-200"
+              className={`${isHome ? 'text-[#F7B58D]' : 'text-[#111111]'} hover:text-[#F7B58D] transition-colors duration-200`}
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -77,7 +83,7 @@ const Navbar = () => {
                   className={`block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200 ${
                     isActive(link.path)
                       ? 'text-[#F7B58D] bg-[#F7B58D]/10'
-                      : 'text-[#111111] hover:text-[#F7B58D] hover:bg-[#F7B58D]/5'
+                      : `${isHome ? 'text-[#F7B58D]' : 'text-[#111111]'} hover:text-[#F7B58D] hover:bg-[#F7B58D]/5`
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
